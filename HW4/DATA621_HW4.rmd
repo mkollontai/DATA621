@@ -1,0 +1,456 @@
+---
+title: "DATA621 HW4"
+author: "Misha Kollontai"
+date: "11/6/2020"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning=FALSE)
+```
+
+
+## Overview
+
+In this homework assignment, you will explore, analyze and model a data set containing approximately 8000 records representing a customer at an auto insurance company. Each record has two response variables. The first response variable, TARGET_FLAG, is a 1 or a 0. A “1” means that the person was in a car crash. A zero means that the person was not in a car crash. The second response variable is TARGET_AMT. This value is zero if the person did not crash their car. But if they did crash their car, this number will be a value greater than zero. 
+
+Your objective is to build multiple linear regression and binary logistic regression models on the training data to predict the probability that a person will crash their car and also the amount of money it will cost if the person does crash their car. You can only use the variables given to you (or variables that you derive from the variables provided). Below is a short description of the variables of interest in the data set:
+
+
+```{r,message=FALSE}
+#load packages
+library(knitr)
+library(dplyr)
+library(kableExtra)
+library(stats)
+library(corrplot)
+library(psych)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+library(tidyr)
+library(broom)
+library(car)
+library(pROC)
+library(OneR)
+```
+ 
+
+
+
+```{r,message=FALSE, echo = FALSE}
+#load training data
+url_train<- 'https://raw.githubusercontent.com/mkollontai/DATA621/main/HW4/insurance_training_data.csv'
+ins_train_df <- read.csv(url_train, header = TRUE)
+ins_train_df$INCOME <- as.numeric(gsub(',','',substring(ins_train_df$INCOME,2)))
+ins_train_df$HOME_VAL <- as.numeric(gsub(',','',substring(ins_train_df$HOME_VAL,2)))
+ins_train_df$OLDCLAIM <- as.numeric(gsub(',','',substring(ins_train_df$OLDCLAIM,2)))
+ins_train_df$BLUEBOOK <- as.numeric(gsub(',','',substring(ins_train_df$BLUEBOOK,2)))
+#kable(ins_train_df[1:15,]) %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),latex_options="scale_down")
+```
+
+## Data Exploration
+
+Let's calculate summary statistics and generate a box plot for further review. The income, home valuem bluebook and old claim data was converted to numeric data in order to make it easier to work with. 
+
+```{r,echo=FALSE}
+#summarize training data
+summary(ins_train_df)
+```
+
+There is no missing (NA) data, though there are some zero-values in the dataset. In order to see what effect each of our variables may have on our predictive model, let's take a look and see how the variables relate to the probability of getting into an accident. 
+
+```{r}
+table(ins_train_df$TARGET_FLAG)
+```
+
+We can see that a vast majority of our data is for vehicles that did not get into an accident. 
+
+### Age
+
+Conventional wisdom indcates that younger people tend to drive more recklessly, let's see how much our data agrees with this sentiment. 
+
+```{r, echo = FALSE, warning=FALSE}
+age <- ins_train_df %>% 
+  group_by(AGE) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(age, aes(x = AGE, y  = perc)) + 
+  geom_point() +
+  geom_smooth()
+```
+
+While the scatter in the data is significant, the trendline suggests that there are in fact two peaks, with both younger and older drivers getting into more accidents. Drivers of ages between 40 and 55 seem to be the safest, so the relationship between age and likelihood to get into an accident will not be linear. 
+
+### Income
+
+The data description suggests that "rich people tend to get into fewer crashes". What does our data show? In order to yield a clearer visualization, we will bin the income data before plotting. To do so we will use the 'clusters' method from the $bin$ function of the [OneR package](https://cran.r-project.org/web/packages/OneR/OneR.pdf). Furthermore, there is income data missing from some entries; for the purpose of this first glance, we will simpy ignore these datapoints. 
+
+```{r, echo = FALSE, warning=FALSE}
+
+ins_train_df$INC_bin <- bin(ins_train_df$INCOME, nbins = 5, method = 'clusters', na.omit = FALSE, labels = c('Lowest','Low','Medium','High','Highest'))
+
+income <- ins_train_df[which(!ins_train_df$INC_bin=="NA"),] %>% 
+  group_by(INC_bin) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+  ) 
+
+ggplot(income, aes(x = INC_bin, y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+Here we can see a clear trend of higher earners getting into fewer car accidents. The highest earners are less than half as likely to get into an accident than the lowest earners. 
+
+Let's see if the Bluebook value of the car a person drives shows a similar correlation:
+
+### Bluebook
+
+Does the 'value' of the car a person drives impact their likelihood to get into an accident? Let's repeat the analysis performed above for the income, binning hte bluebook values and ignoring NA values (for now). 
+
+```{r, echo = FALSE, warning=FALSE}
+
+hist(ins_train_df$BLUEBOOK)
+
+ins_train_df$blue_bin <- bin(ins_train_df$BLUEBOOK, nbins = 5, method = 'clusters', na.omit = FALSE, labels = c('Lowest','Low','Medium','High','Highest'))
+
+blue <- ins_train_df[which(!ins_train_df$blue_bin=="NA"),] %>% 
+  group_by(blue_bin) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+  ) 
+
+ggplot(blue, aes(x = blue_bin, y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+In the Bluebook value it seems that the relationship is not as negative as it was for income - the lowest value cars are most likely to be in accidents, with the other 4 bins showing fairly similar likelihoods. 
+
+### Kids in the Household Who Drive
+
+```{r, echo = FALSE}
+kids_dr <- ins_train_df %>% 
+  group_by(KIDSDRIV) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(kids_dr, aes(x = KIDSDRIV, y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+There seems to be a trend between the number of driving teens in a household and the likelihood of getting into an accident - this variable KIDSDRIV will likey be a strong predictor for the likelihood of an accident. 
+
+### Kids in the Household
+
+```{r, echo = FALSE}
+kids_home <- ins_train_df %>% 
+  group_by(HOMEKIDS) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(kids_home, aes(x = HOMEKIDS, y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white') 
+```
+The overall number of kids in a household seems to follow the pattern of the data related to teenagers in the house who can drive. This could suggest that the unsafe driving practices of the eligible kids outweigh the added precautions taken by parents of many children. We will see if this makes it into our model. 
+
+### Gender
+
+Let us look into the urban legend that women have less crashes than men:
+
+```{r, echo = FALSE}
+sex <- ins_train_df %>% 
+  group_by(SEX) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(sex, aes(x = SEX, y  = perc)) + 
+  geom_bar(stat='identity') +
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+There does appear to be a slightly larger percentage of females who get into accidents based on this data contrary to the urban legends. The difference is about 2%, however, and is unlikely to be a very strong predictor. 
+
+### Red Car
+
+Following up one urban legend with another- are red cars more likely to get into an accident than other vehicles?
+
+```{r, echo = FALSE}
+red <- ins_train_df %>% 
+  group_by(RED_CAR) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(red, aes(x = RED_CAR, y  = perc)) + 
+  geom_bar(stat='identity') +
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+This data suggests that there is no indication of red cars getting into more accidents - a smaller proportion of red cars were involved in accidents than non-red cars were (in this dataset). Based on this data, the RED_CAR variable is unlikely to add much value to our model. 
+
+### Education
+
+```{r, echo = FALSE}
+edu <- ins_train_df %>% 
+  group_by(EDUCATION) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+edu_ord <- c('<High School', 'z_High School', 'Bachelors', 'Masters', 'PhD')
+ggplot(edu, aes(x = EDUCATION, y  = perc)) + 
+  geom_bar(stat='identity') + scale_x_discrete(limits = edu_ord)+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+From the image above we can clearly see that a higher percentage of people without a college education will get into an accident. Based on this information, EDUCATION will certainly be used as a predictor in our model. 
+
+### Job
+
+```{r, echo = FALSE}
+job <- ins_train_df %>% 
+  group_by(JOB) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+
+ggplot(job, aes(x = reorder(JOB, -perc), y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+From this breakdown based on Job we cna see that there are certain careers that correlate to a higher number of accidents. This suggests that the JOB variable wil be a valuable predictor for our model. 
+
+### Car Use
+
+There is a suggestion that what a vehicle is used for may have an impact on accident likelihood. Commercial vehicles are driven more frequently than their private counterparts, so the vehicle is exposed to more opportunities for accidents. 
+
+```{r, echo = FALSE}
+car_use <- ins_train_df %>% 
+  group_by(CAR_USE) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+ggplot(car_use, aes(x = CAR_USE, y  = perc)) + 
+  geom_bar(stat='identity') +
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+The data does seem to support the hypothesis, with commercial vehicles ~13% mre likely to be in an accident. 
+
+### Car Type
+
+What about car type - are there certain types of cars that seem to get into more accidents than others?
+
+```{r, echo = FALSE}
+car_type <- ins_train_df %>% 
+  group_by(CAR_TYPE) %>%
+  summarise(
+    acc = sum(TARGET_FLAG),
+    total = length(TARGET_FLAG),
+    perc = acc/total
+)
+
+ggplot(car_type, aes(x = reorder(CAR_TYPE, -perc), y  = perc)) + 
+  geom_bar(stat='identity')+
+  geom_text(aes(label = paste(round(perc*100,1),'%')), vjust = 1.6, color = 'white')
+```
+
+Based on this visualization it seems that Sports Cars are most likely to get nti ab accident, with Minivans seemingly the safest. This just about follows what we would expect as sports cars have a reputation for reckless driving, while minivans are more often owned by safety-conscious families. 
+
+
+Let's check  the correlation plot generated from our dataset. 
+
+```{r,message=FALSE, echo=FALSE}
+#correlations
+ins_train_df_num <- select_if(ins_train_df, is.numeric)
+ins_train_df_num <- ins_train_df_num[,-1]
+cor_train <- cor(ins_train_df_num, method="pearson", use = 'na.or.complete') 
+corrplot(cor_train, type = 'upper', diag = FALSE)
+```
+
+With respect to the Target Flag, few variables show strong correlations in one direction or another, with Home_Val, CLM_Freq and MVR_PTS standing out somewhat. 
+
+
+## Data Preparation
+
+### Imputation
+
+What columns are missing data?
+
+```{r, echo = FALSE}
+colSums(is.na(ins_train_df))
+```
+
+We will replace the missing $Age$, $Income$, $Year On Job$, $Home Value$ and $Car Age$ values with the median values for each category.
+
+```{r, echo = FALSE}
+ins_train_df$AGE[is.na(ins_train_df$AGE)] <- median(ins_train_df$AGE, na.rm = TRUE)
+ins_train_df$INCOME[is.na(ins_train_df$INCOME)] <- median(ins_train_df$INCOME, na.rm = TRUE)
+ins_train_df$HOME_VAL[is.na(ins_train_df$HOME_VAL)] <- median(ins_train_df$HOME_VAL, na.rm = TRUE)
+ins_train_df$YOJ[is.na(ins_train_df$YOJ)] <- median(ins_train_df$YOJ, na.rm = TRUE)
+ins_train_df$CAR_AGE[is.na(ins_train_df$CAR_AGE)] <- median(ins_train_df$CAR_AGE, na.rm = TRUE)
+```
+
+```{r, echo = FALSE}
+colSums(is.na(ins_train_df))
+```
+
+### Transforming Data
+
+We created two new variables above, binning the Income column as well as the Bluebook columns above in order to better visualize the distribution of the data. 
+
+## Build Models
+
+To start, let's create some binary logistic regression models that will predict whether or not someone will get into an accident. We can then use this prediction to estimate the cost associated with said accident. 
+
+### Binary Logistic Regressions
+
+#### Model 1 - First Binary Logistic Regression
+
+```{r}
+#build model 1 - all variables
+flag_train_data <- ins_train_df[,-1]
+flag_train_data <- flag_train_data[,-2]
+model1 <- glm(TARGET_FLAG ~., data = flag_train_data, family = binomial)
+summary(model1)
+```
+
+Looking over some of the coefficients, we see a negative relationship with the bluebook value, Time in Force, Old Claims, while the relationships with A Revoked License history, Motor Vehicle Record Points and Travel Time is positive - this  aligns with what we would exect to see. 
+
+For our second model, let's reduce the number of less significant variables and trim the model somewhat by stepwise removing variables that have insignificant p-values. 
+
+#### Model 2 - Trimmed Binary Logistic Regression
+
+```{r}
+model2 <- glm(TARGET_FLAG ~.- AGE - HOMEKIDS - YOJ - INCOME - INC_bin - blue_bin - CAR_AGE - RED_CAR - SEX, data = flag_train_data, family = binomial)
+summary(model2)
+```
+
+The two professions that seem to stand out in this model seem to be the 'Clerical' and 'Manager' designations. Lets remove the overall Job variable and create two new ones designating whether the car owner falls into one of those categories. 
+
+#### Model 3 - Third Binary Logistic Regression
+
+```{r}
+flag_train_data_2 <- flag_train_data
+flag_train_data_2$Manager <- ifelse(flag_train_data_2$JOB =='Manager',1,0)
+flag_train_data_2$Clerical <- ifelse(flag_train_data_2$JOB =='Clerical',1,0)
+
+model3 <- glm(TARGET_FLAG ~.- AGE - HOMEKIDS - YOJ - INCOME - INC_bin - blue_bin - CAR_AGE - RED_CAR - SEX - JOB, data = flag_train_data_2, family = binomial)
+summary(model3)
+```
+
+Let's use this model to predict the likelihood of an accident. This data could then be used as an input for the determination of how high the accident value would be. 
+
+```{r}
+predict1 <- flag_train_data_2
+predict1$TARGET_FLAG <- predict(model3, type = 'response')
+head(predict1)
+```
+
+### Linear Logistic Regressions
+
+Using our previously calcuated prediction for the accident likelihood as one of the inputs, we can create a linear model for calculating the amount expected to be associated with an accident.
+
+To start, let's see how our model would look using all of the original available variables:
+
+#### Model 4
+
+```{r,message=FALSE}
+amt_train_data <- ins_train_df[,-1]
+amt_train_data <- amt_train_data[,-1]
+model4 <- lm(TARGET_AMT ~., data = amt_train_data)
+summary(model4)
+```
+
+Looking over the summary of this model, we can see that many of the variables do not appear to be very significant. There appears to be value in removing some of these less significant variables and perhaps adding our prediction of rhte flag as an additional one. 
+
+#### Model 5 - More significant variables along with the Flag prediction
+
+```{r,echo = FALSE, message=FALSE}
+amt_train_data$Manager <- ifelse(amt_train_data$JOB =='Manager',1,0)
+amt_train_data$Clerical <- ifelse(amt_train_data$JOB =='Clerical',1,0)
+amt_train_data$TARGET_FLAG <- predict(model3, amt_train_data, type = 'response')
+```
+
+```{r}
+model5 <- lm(TARGET_AMT ~ . - AGE - HOMEKIDS - YOJ - INCOME - KIDSDRIV -INC_bin - blue_bin - CAR_AGE - RED_CAR - SEX - JOB - CAR_TYPE - TRAVTIME, data = amt_train_data)
+summary(model5)
+```
+
+We can clearly see that our FLAG prediction is by far the most significant of predictor. This will be partially because this variable has already accounted for many of the other variables in the equation. One could argue that this would be double-dipping into variables by accounting for them more than once, but the predicted FLAG variable is actually a compicated combination of many of the variables and should provide valuable new information. The Bluebook vlaue is the other strongly significant variable in this model which makes sense as the value of one of the cars involved in an accident drives the value associated with said accident. We would expect this to be a strong predictor with a positive relationship. 
+
+
+## Choose Model
+
+Though the third binary model doesn't have the lowest AIC value, it's simplicity more than makes up for the slight difference there, so we will use it to predict our FLAG value in the original data. Once that is done we will go with our 5th model (2nd linear regression) to predict the amount associated with an accident. This model has a slightly higher R-squared, but also incorporates our custom FLAG prediction variable, which we believe to be a very good indicator of the amount associated wiht an accident. The relative strength of the Bluebook variable is another argument in favor of this model. 
+
+
+To start, we must calculate the FLAG predictions of our binary model after imputing missing data:
+
+```{r}
+url_eval <- 'https://raw.githubusercontent.com/mkollontai/DATA621/main/HW4/insurance-evaluation-data.csv'
+ins_eval_df <- read.csv(url_eval, header = TRUE)
+```
+
+```{r, include = FALSE}
+colSums(is.na(ins_eval_df))
+```
+
+```{r, echo = FALSE}
+
+ins_eval_df$INCOME <- as.numeric(gsub(',','',substring(ins_eval_df$INCOME,2)))
+ins_eval_df$HOME_VAL <- as.numeric(gsub(',','',substring(ins_eval_df$HOME_VAL,2)))
+ins_eval_df$OLDCLAIM <- as.numeric(gsub(',','',substring(ins_eval_df$OLDCLAIM,2)))
+ins_eval_df$BLUEBOOK <- as.numeric(gsub(',','',substring(ins_eval_df$BLUEBOOK,2)))
+
+ins_eval_df$AGE[is.na(ins_eval_df$AGE)] <- median(ins_eval_df$AGE, na.rm = TRUE)
+ins_eval_df$INCOME[is.na(ins_eval_df$INCOME)] <- median(ins_eval_df$INCOME, na.rm = TRUE)
+ins_eval_df$YOJ[is.na(ins_eval_df$YOJ)] <- median(ins_eval_df$YOJ, na.rm = TRUE)
+ins_eval_df$CAR_AGE[is.na(ins_eval_df$CAR_AGE)] <- median(ins_eval_df$CAR_AGE, na.rm = TRUE)
+
+ins_eval_df$INC_bin <- bin(ins_eval_df$INCOME, nbins = 5, method = 'clusters', na.omit = FALSE, labels = c('Lowest','Low','Medium','High','Highest'))
+
+ins_eval_df$blue_bin <- bin(ins_eval_df$BLUEBOOK, nbins = 5, method = 'clusters', na.omit = FALSE, labels = c('Lowest','Low','Medium','High','Highest'))
+
+ins_eval_df$Manager <- ifelse(ins_eval_df$JOB =='Manager',1,0)
+ins_eval_df$Clerical <- ifelse(ins_eval_df$JOB =='Clerical',1,0)
+
+ins_eval_df$TARGET_FLAG <- predict(model3, ins_eval_df, type = 'response')
+ins_eval_df$TARGET_AMT <- predict(model5,ins_eval_df)
+ins_eval_df$TARGET_FLAG <- ifelse(ins_eval_df$TARGET_FLAG < 0.5,0,1)
+ins_eval_df$TARGET_AMT <- ifelse(ins_eval_df$TARGET_AMT < 0,0,ins_eval_df$TARGET_AMT)
+```
+
+```{r}
+ins_eval_df[0:20,0:3]
+```
+
+We could have customized the amount to display 0 if the flag was predicted to be 0, but since there is a significant level of uncertainty here, we wil leave the amount prediction capped negatiely at 0, but ignoring the FLAG variable prediction.
