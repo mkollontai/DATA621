@@ -1,0 +1,151 @@
+LocationType,Location,TimeFrame,DataFormat,Data
+State,Alabama,2017,"Rate per 1,000",7.4
+State,Alabama,2016,"Rate per 1,000",9.1
+State,Alabama,2018,"Rate per 1,000",7
+State,Alaska,2018,"Rate per 1,000",5.9
+State,Alaska,2016,"Rate per 1,000",5.4
+State,Alaska,2017,"Rate per 1,000",5.6
+State,Arizona,2017,"Rate per 1,000",5.7
+State,Arizona,2016,"Rate per 1,000",5.4
+State,Arizona,2018,"Rate per 1,000",5.6
+State,Arkansas,2018,"Rate per 1,000",7.5
+State,Arkansas,2016,"Rate per 1,000",8.1
+State,Arkansas,2017,"Rate per 1,000",8.2
+State,California,2017,"Rate per 1,000",4.2
+State,California,2016,"Rate per 1,000",4.2
+State,California,2018,"Rate per 1,000",4.2
+State,Colorado,2018,"Rate per 1,000",4.7
+State,Colorado,2016,"Rate per 1,000",4.8
+State,Colorado,2017,"Rate per 1,000",4.5
+State,Connecticut,2017,"Rate per 1,000",4.5
+State,Connecticut,2016,"Rate per 1,000",4.8
+State,Connecticut,2018,"Rate per 1,000",4.2
+State,Delaware,2018,"Rate per 1,000",5.8
+State,Delaware,2016,"Rate per 1,000",7.9
+State,Delaware,2017,"Rate per 1,000",6.6
+State,Florida,2018,"Rate per 1,000",6
+State,Florida,2016,"Rate per 1,000",6.1
+State,Florida,2017,"Rate per 1,000",6.1
+State,Georgia,2017,"Rate per 1,000",7.2
+State,Georgia,2016,"Rate per 1,000",7.5
+State,Georgia,2018,"Rate per 1,000",7
+State,Hawaii,2018,"Rate per 1,000",6.8
+State,Hawaii,2016,"Rate per 1,000",6.1
+State,Hawaii,2017,"Rate per 1,000",5.3
+State,Idaho,2017,"Rate per 1,000",4.6
+State,Idaho,2016,"Rate per 1,000",6.1
+State,Idaho,2018,"Rate per 1,000",5.1
+State,Illinois,2018,"Rate per 1,000",6.5
+State,Illinois,2016,"Rate per 1,000",6.3
+State,Illinois,2017,"Rate per 1,000",6.1
+State,Indiana,2017,"Rate per 1,000",7.3
+State,Indiana,2016,"Rate per 1,000",7.5
+State,Indiana,2018,"Rate per 1,000",6.8
+State,Iowa,2018,"Rate per 1,000",5.1
+State,Iowa,2016,"Rate per 1,000",6.1
+State,Iowa,2017,"Rate per 1,000",5.3
+State,Kansas,2017,"Rate per 1,000",6.1
+State,Kansas,2016,"Rate per 1,000",5.9
+State,Kansas,2018,"Rate per 1,000",6.5
+State,Kentucky,2018,"Rate per 1,000",5.8
+State,Kentucky,2016,"Rate per 1,000",6.7
+State,Kentucky,2017,"Rate per 1,000",6.5
+State,Louisiana,2017,"Rate per 1,000",7.1
+State,Louisiana,2016,"Rate per 1,000",8
+State,Louisiana,2018,"Rate per 1,000",7.6
+State,Maine,2018,"Rate per 1,000",5.4
+State,Maine,2016,"Rate per 1,000",5.8
+State,Maine,2017,"Rate per 1,000",5.7
+State,Maryland,2017,"Rate per 1,000",6.4
+State,Maryland,2016,"Rate per 1,000",6.6
+State,Maryland,2018,"Rate per 1,000",6.1
+State,Massachusetts,2018,"Rate per 1,000",4.2
+State,Massachusetts,2016,"Rate per 1,000",3.9
+State,Massachusetts,2017,"Rate per 1,000",3.7
+State,Michigan,2017,"Rate per 1,000",6.8
+State,Michigan,2016,"Rate per 1,000",6.4
+State,Michigan,2018,"Rate per 1,000",6.2
+State,Minnesota,2018,"Rate per 1,000",5.1
+State,Minnesota,2016,"Rate per 1,000",5.1
+State,Minnesota,2017,"Rate per 1,000",4.8
+State,Mississippi,2017,"Rate per 1,000",8.6
+State,Mississippi,2016,"Rate per 1,000",8.6
+State,Mississippi,2018,"Rate per 1,000",8.3
+State,Missouri,2018,"Rate per 1,000",6.3
+State,Missouri,2016,"Rate per 1,000",6.5
+State,Missouri,2017,"Rate per 1,000",6.2
+State,Montana,2017,"Rate per 1,000",5.4
+State,Montana,2016,"Rate per 1,000",5.9
+State,Montana,2018,"Rate per 1,000",4.8
+State,Nebraska,2018,"Rate per 1,000",5.8
+State,Nebraska,2016,"Rate per 1,000",6.2
+State,Nebraska,2017,"Rate per 1,000",5.6
+State,Nevada,2017,"Rate per 1,000",5.8
+State,Nevada,2016,"Rate per 1,000",5.7
+State,Nevada,2018,"Rate per 1,000",6.1
+State,New Hampshire,2018,"Rate per 1,000",3.6
+State,New Hampshire,2016,"Rate per 1,000",3.7
+State,New Hampshire,2017,"Rate per 1,000",4.2
+State,New Jersey,2017,"Rate per 1,000",4.5
+State,New Jersey,2016,"Rate per 1,000",4.1
+State,New Jersey,2018,"Rate per 1,000",3.9
+State,New Mexico,2018,"Rate per 1,000",5.7
+State,New Mexico,2016,"Rate per 1,000",6.2
+State,New Mexico,2017,"Rate per 1,000",5.9
+State,New York,2017,"Rate per 1,000",4.6
+State,New York,2016,"Rate per 1,000",4.5
+State,New York,2018,"Rate per 1,000",4.3
+State,North Carolina,2018,"Rate per 1,000",6.7
+State,North Carolina,2016,"Rate per 1,000",7.2
+State,North Carolina,2017,"Rate per 1,000",7.1
+State,North Dakota,2017,"Rate per 1,000",4.3
+State,North Dakota,2016,"Rate per 1,000",6.5
+State,North Dakota,2018,"Rate per 1,000",5.5
+State,Ohio,2018,"Rate per 1,000",6.9
+State,Ohio,2016,"Rate per 1,000",7.4
+State,Ohio,2017,"Rate per 1,000",7.2
+State,Oklahoma,2017,"Rate per 1,000",7.7
+State,Oklahoma,2016,"Rate per 1,000",7.4
+State,Oklahoma,2018,"Rate per 1,000",7.1
+State,Oregon,2018,"Rate per 1,000",4.2
+State,Oregon,2016,"Rate per 1,000",4.6
+State,Oregon,2017,"Rate per 1,000",5.4
+State,Pennsylvania,2017,"Rate per 1,000",6.1
+State,Pennsylvania,2016,"Rate per 1,000",6.1
+State,Pennsylvania,2018,"Rate per 1,000",5.9
+State,Rhode Island,2018,"Rate per 1,000",5
+State,Rhode Island,2016,"Rate per 1,000",5.7
+State,Rhode Island,2017,"Rate per 1,000",6.2
+State,South Carolina,2017,"Rate per 1,000",6.5
+State,South Carolina,2016,"Rate per 1,000",7
+State,South Carolina,2018,"Rate per 1,000",7.2
+State,South Dakota,2018,"Rate per 1,000",5.9
+State,South Dakota,2016,"Rate per 1,000",4.8
+State,South Dakota,2017,"Rate per 1,000",7.7
+State,Tennessee,2017,"Rate per 1,000",7.4
+State,Tennessee,2016,"Rate per 1,000",7.4
+State,Tennessee,2018,"Rate per 1,000",6.9
+State,Texas,2018,"Rate per 1,000",5.5
+State,Texas,2016,"Rate per 1,000",5.7
+State,Texas,2017,"Rate per 1,000",5.9
+State,Utah,2017,"Rate per 1,000",5.9
+State,Utah,2016,"Rate per 1,000",5.4
+State,Utah,2018,"Rate per 1,000",5.5
+State,Vermont,2018,"Rate per 1,000",6.4
+State,Vermont,2016,"Rate per 1,000",S
+State,Vermont,2017,"Rate per 1,000",4.8
+State,Virginia,2017,"Rate per 1,000",5.9
+State,Virginia,2016,"Rate per 1,000",5.8
+State,Virginia,2018,"Rate per 1,000",5.6
+State,Washington,2018,"Rate per 1,000",4.7
+State,Washington,2016,"Rate per 1,000",4.3
+State,Washington,2017,"Rate per 1,000",3.9
+State,West Virginia,2017,"Rate per 1,000",7
+State,West Virginia,2016,"Rate per 1,000",7.3
+State,West Virginia,2018,"Rate per 1,000",7.1
+State,Wisconsin,2018,"Rate per 1,000",6.1
+State,Wisconsin,2016,"Rate per 1,000",6.3
+State,Wisconsin,2017,"Rate per 1,000",6.4
+State,Wyoming,2017,"Rate per 1,000",4.6
+State,Wyoming,2016,"Rate per 1,000",5
+State,Wyoming,2018,"Rate per 1,000",5.3

@@ -1,0 +1,1001 @@
+LocationType,Location,Education,TimeFrame,DataFormat,Data
+State,Wyoming,Graduate degree,2017,Percent,0.1
+State,Wyoming,Not a high school graduate,2019,Percent,0.05
+State,Wyoming,High school diploma or GED,2019,Percent,0.54
+State,Wyoming,Associate's Degree,2019,Percent,0.12
+State,Wyoming,Bachelor's Degree,2019,Percent,0.19
+State,Wyoming,Graduate degree,2019,Percent,0.09
+State,Wyoming,Not a high school graduate,2018,Percent,0.06
+State,Wyoming,High school diploma or GED,2018,Percent,0.54
+State,Wyoming,Associate's Degree,2018,Percent,0.12
+State,Wyoming,Bachelor's Degree,2018,Percent,0.18
+State,Wyoming,Graduate degree,2018,Percent,0.1
+State,Wyoming,Bachelor's Degree,2017,Percent,0.18
+State,Wyoming,Associate's Degree,2017,Percent,0.11
+State,Wyoming,High school diploma or GED,2017,Percent,0.54
+State,Wyoming,Not a high school graduate,2017,Percent,0.07
+State,Wyoming,Graduate degree,2016,Percent,0.09
+State,Wyoming,Bachelor's Degree,2016,Percent,0.18
+State,Wyoming,Associate's Degree,2016,Percent,0.13
+State,Wyoming,High school diploma or GED,2016,Percent,0.54
+State,Wyoming,Not a high school graduate,2016,Percent,0.06
+State,Wisconsin,Graduate degree,2017,Percent,0.11
+State,Wisconsin,Bachelor's Degree,2017,Percent,0.22
+State,Wisconsin,Not a high school graduate,2019,Percent,0.07
+State,Wisconsin,High school diploma or GED,2019,Percent,0.48
+State,Wisconsin,Associate's Degree,2019,Percent,0.12
+State,Wisconsin,Bachelor's Degree,2019,Percent,0.23
+State,Wisconsin,Graduate degree,2019,Percent,0.11
+State,Wisconsin,Not a high school graduate,2018,Percent,0.07
+State,Wisconsin,High school diploma or GED,2018,Percent,0.49
+State,Wisconsin,Associate's Degree,2018,Percent,0.12
+State,Wisconsin,Bachelor's Degree,2018,Percent,0.21
+State,Wisconsin,Graduate degree,2018,Percent,0.11
+State,Wisconsin,Associate's Degree,2017,Percent,0.12
+State,Wisconsin,High school diploma or GED,2017,Percent,0.49
+State,Wisconsin,Not a high school graduate,2017,Percent,0.07
+State,Wisconsin,Graduate degree,2016,Percent,0.1
+State,Wisconsin,Bachelor's Degree,2016,Percent,0.21
+State,Wisconsin,Associate's Degree,2016,Percent,0.12
+State,Wisconsin,High school diploma or GED,2016,Percent,0.5
+State,Wisconsin,Not a high school graduate,2016,Percent,0.07
+State,West Virginia,Graduate degree,2017,Percent,0.08
+State,West Virginia,Not a high school graduate,2019,Percent,0.1
+State,West Virginia,High school diploma or GED,2019,Percent,0.58
+State,West Virginia,Associate's Degree,2019,Percent,0.09
+State,West Virginia,Bachelor's Degree,2019,Percent,0.14
+State,West Virginia,Graduate degree,2019,Percent,0.08
+State,West Virginia,Not a high school graduate,2018,Percent,0.1
+State,West Virginia,High school diploma or GED,2018,Percent,0.59
+State,West Virginia,Associate's Degree,2018,Percent,0.09
+State,West Virginia,Bachelor's Degree,2018,Percent,0.14
+State,West Virginia,Graduate degree,2018,Percent,0.08
+State,West Virginia,Bachelor's Degree,2017,Percent,0.13
+State,West Virginia,Associate's Degree,2017,Percent,0.08
+State,West Virginia,High school diploma or GED,2017,Percent,0.6
+State,West Virginia,Not a high school graduate,2017,Percent,0.1
+State,West Virginia,Graduate degree,2016,Percent,0.08
+State,West Virginia,Bachelor's Degree,2016,Percent,0.14
+State,West Virginia,Associate's Degree,2016,Percent,0.08
+State,West Virginia,High school diploma or GED,2016,Percent,0.58
+State,West Virginia,Not a high school graduate,2016,Percent,0.12
+State,Washington,Graduate degree,2017,Percent,0.13
+State,Washington,Bachelor's Degree,2017,Percent,0.23
+State,Washington,Associate's Degree,2017,Percent,0.11
+State,Washington,Not a high school graduate,2019,Percent,0.08
+State,Washington,High school diploma or GED,2019,Percent,0.44
+State,Washington,Associate's Degree,2019,Percent,0.1
+State,Washington,Bachelor's Degree,2019,Percent,0.24
+State,Washington,Graduate degree,2019,Percent,0.14
+State,Washington,Not a high school graduate,2018,Percent,0.08
+State,Washington,High school diploma or GED,2018,Percent,0.43
+State,Washington,Associate's Degree,2018,Percent,0.11
+State,Washington,Bachelor's Degree,2018,Percent,0.24
+State,Washington,Graduate degree,2018,Percent,0.14
+State,Washington,High school diploma or GED,2017,Percent,0.45
+State,Washington,Graduate degree,2016,Percent,0.13
+State,Washington,Not a high school graduate,2017,Percent,0.08
+State,Washington,Bachelor's Degree,2016,Percent,0.23
+State,Washington,Associate's Degree,2016,Percent,0.1
+State,Washington,High school diploma or GED,2016,Percent,0.45
+State,Washington,Not a high school graduate,2016,Percent,0.09
+State,Virginia,Not a high school graduate,2019,Percent,0.09
+State,Virginia,High school diploma or GED,2019,Percent,0.41
+State,Virginia,Associate's Degree,2019,Percent,0.08
+State,Virginia,Bachelor's Degree,2019,Percent,0.24
+State,Virginia,Graduate degree,2019,Percent,0.18
+State,Virginia,Not a high school graduate,2018,Percent,0.09
+State,Virginia,High school diploma or GED,2018,Percent,0.42
+State,Virginia,Associate's Degree,2018,Percent,0.08
+State,Virginia,Bachelor's Degree,2018,Percent,0.24
+State,Virginia,Graduate degree,2018,Percent,0.17
+State,Virginia,Graduate degree,2017,Percent,0.17
+State,Virginia,Bachelor's Degree,2017,Percent,0.24
+State,Virginia,Associate's Degree,2017,Percent,0.08
+State,Virginia,High school diploma or GED,2017,Percent,0.42
+State,Virginia,Not a high school graduate,2017,Percent,0.09
+State,Virginia,Graduate degree,2016,Percent,0.17
+State,Virginia,Bachelor's Degree,2016,Percent,0.23
+State,Virginia,Associate's Degree,2016,Percent,0.08
+State,Virginia,High school diploma or GED,2016,Percent,0.43
+State,Virginia,Not a high school graduate,2016,Percent,0.09
+State,Vermont,Graduate degree,2017,Percent,0.15
+State,Vermont,Not a high school graduate,2019,Percent,0.06
+State,Vermont,High school diploma or GED,2019,Percent,0.45
+State,Vermont,Associate's Degree,2019,Percent,0.09
+State,Vermont,Bachelor's Degree,2019,Percent,0.24
+State,Vermont,Graduate degree,2019,Percent,0.16
+State,Vermont,Not a high school graduate,2018,Percent,0.05
+State,Vermont,High school diploma or GED,2018,Percent,0.45
+State,Vermont,Associate's Degree,2018,Percent,0.09
+State,Vermont,Bachelor's Degree,2018,Percent,0.25
+State,Vermont,Graduate degree,2018,Percent,0.15
+State,Vermont,Bachelor's Degree,2017,Percent,0.24
+State,Vermont,Associate's Degree,2017,Percent,0.09
+State,Vermont,High school diploma or GED,2017,Percent,0.46
+State,Vermont,Not a high school graduate,2017,Percent,0.06
+State,Vermont,Graduate degree,2016,Percent,0.15
+State,Vermont,Bachelor's Degree,2016,Percent,0.22
+State,Vermont,Associate's Degree,2016,Percent,0.1
+State,Vermont,High school diploma or GED,2016,Percent,0.46
+State,Vermont,Not a high school graduate,2016,Percent,0.07
+State,Utah,Graduate degree,2017,Percent,0.12
+State,Utah,Not a high school graduate,2019,Percent,0.07
+State,Utah,High school diploma or GED,2019,Percent,0.48
+State,Utah,Associate's Degree,2019,Percent,0.1
+State,Utah,Bachelor's Degree,2019,Percent,0.24
+State,Utah,Graduate degree,2019,Percent,0.11
+State,Utah,Not a high school graduate,2018,Percent,0.08
+State,Utah,High school diploma or GED,2018,Percent,0.46
+State,Utah,Associate's Degree,2018,Percent,0.11
+State,Utah,Bachelor's Degree,2018,Percent,0.24
+State,Utah,Graduate degree,2018,Percent,0.11
+State,Utah,Bachelor's Degree,2017,Percent,0.24
+State,Utah,Associate's Degree,2017,Percent,0.1
+State,Utah,High school diploma or GED,2017,Percent,0.47
+State,Utah,Not a high school graduate,2017,Percent,0.08
+State,Utah,Graduate degree,2016,Percent,0.11
+State,Utah,Bachelor's Degree,2016,Percent,0.22
+State,Utah,Associate's Degree,2016,Percent,0.11
+State,Utah,High school diploma or GED,2016,Percent,0.48
+State,Utah,Not a high school graduate,2016,Percent,0.08
+State,Texas,Not a high school graduate,2019,Percent,0.14
+State,Texas,High school diploma or GED,2019,Percent,0.46
+State,Texas,Associate's Degree,2019,Percent,0.08
+State,Texas,Bachelor's Degree,2019,Percent,0.21
+State,Texas,Graduate degree,2019,Percent,0.11
+State,Texas,Not a high school graduate,2018,Percent,0.15
+State,Texas,High school diploma or GED,2018,Percent,0.46
+State,Texas,Associate's Degree,2018,Percent,0.08
+State,Texas,Bachelor's Degree,2018,Percent,0.2
+State,Texas,Graduate degree,2018,Percent,0.11
+State,Texas,Graduate degree,2017,Percent,0.1
+State,Texas,Bachelor's Degree,2017,Percent,0.2
+State,Texas,Associate's Degree,2017,Percent,0.08
+State,Texas,High school diploma or GED,2017,Percent,0.47
+State,Texas,Not a high school graduate,2017,Percent,0.15
+State,Texas,Graduate degree,2016,Percent,0.1
+State,Texas,Bachelor's Degree,2016,Percent,0.2
+State,Texas,Associate's Degree,2016,Percent,0.08
+State,Texas,High school diploma or GED,2016,Percent,0.47
+State,Texas,Not a high school graduate,2016,Percent,0.16
+State,Tennessee,Graduate degree,2017,Percent,0.1
+State,Tennessee,Bachelor's Degree,2017,Percent,0.19
+State,Tennessee,Not a high school graduate,2019,Percent,0.1
+State,Tennessee,High school diploma or GED,2019,Percent,0.51
+State,Tennessee,Associate's Degree,2019,Percent,0.08
+State,Tennessee,Bachelor's Degree,2019,Percent,0.2
+State,Tennessee,Graduate degree,2019,Percent,0.11
+State,Tennessee,Not a high school graduate,2018,Percent,0.1
+State,Tennessee,High school diploma or GED,2018,Percent,0.53
+State,Tennessee,Associate's Degree,2018,Percent,0.08
+State,Tennessee,Bachelor's Degree,2018,Percent,0.19
+State,Tennessee,Graduate degree,2018,Percent,0.1
+State,Tennessee,Associate's Degree,2017,Percent,0.08
+State,Tennessee,High school diploma or GED,2017,Percent,0.53
+State,Tennessee,Not a high school graduate,2017,Percent,0.11
+State,Tennessee,Graduate degree,2016,Percent,0.09
+State,Tennessee,Bachelor's Degree,2016,Percent,0.18
+State,Tennessee,Associate's Degree,2016,Percent,0.08
+State,Tennessee,High school diploma or GED,2016,Percent,0.53
+State,Tennessee,Not a high school graduate,2016,Percent,0.11
+State,South Dakota,Graduate degree,2017,Percent,0.09
+State,South Dakota,Bachelor's Degree,2017,Percent,0.2
+State,South Dakota,Associate's Degree,2017,Percent,0.12
+State,South Dakota,Not a high school graduate,2019,Percent,0.07
+State,South Dakota,High school diploma or GED,2019,Percent,0.48
+State,South Dakota,Associate's Degree,2019,Percent,0.14
+State,South Dakota,Bachelor's Degree,2019,Percent,0.22
+State,South Dakota,Graduate degree,2019,Percent,0.09
+State,South Dakota,Not a high school graduate,2018,Percent,0.07
+State,South Dakota,High school diploma or GED,2018,Percent,0.49
+State,South Dakota,Associate's Degree,2018,Percent,0.14
+State,South Dakota,Bachelor's Degree,2018,Percent,0.22
+State,South Dakota,Graduate degree,2018,Percent,0.09
+State,South Dakota,High school diploma or GED,2017,Percent,0.51
+State,South Dakota,Graduate degree,2016,Percent,0.09
+State,South Dakota,Not a high school graduate,2017,Percent,0.07
+State,South Dakota,Bachelor's Degree,2016,Percent,0.21
+State,South Dakota,Associate's Degree,2016,Percent,0.14
+State,South Dakota,High school diploma or GED,2016,Percent,0.49
+State,South Dakota,Not a high school graduate,2016,Percent,0.08
+State,South Carolina,Graduate degree,2017,Percent,0.1
+State,South Carolina,Not a high school graduate,2019,Percent,0.11
+State,South Carolina,High school diploma or GED,2019,Percent,0.49
+State,South Carolina,Associate's Degree,2019,Percent,0.11
+State,South Carolina,Bachelor's Degree,2019,Percent,0.19
+State,South Carolina,Graduate degree,2019,Percent,0.11
+State,South Carolina,Not a high school graduate,2018,Percent,0.1
+State,South Carolina,High school diploma or GED,2018,Percent,0.5
+State,South Carolina,Associate's Degree,2018,Percent,0.11
+State,South Carolina,Bachelor's Degree,2018,Percent,0.19
+State,South Carolina,Graduate degree,2018,Percent,0.1
+State,South Carolina,Bachelor's Degree,2017,Percent,0.18
+State,South Carolina,Associate's Degree,2017,Percent,0.1
+State,South Carolina,High school diploma or GED,2017,Percent,0.5
+State,South Carolina,Not a high school graduate,2017,Percent,0.11
+State,South Carolina,Graduate degree,2016,Percent,0.09
+State,South Carolina,Bachelor's Degree,2016,Percent,0.18
+State,South Carolina,Associate's Degree,2016,Percent,0.1
+State,South Carolina,High school diploma or GED,2016,Percent,0.5
+State,South Carolina,Not a high school graduate,2016,Percent,0.12
+State,Rhode Island,Graduate degree,2017,Percent,0.13
+State,Rhode Island,Bachelor's Degree,2017,Percent,0.22
+State,Rhode Island,Not a high school graduate,2019,Percent,0.09
+State,Rhode Island,High school diploma or GED,2019,Percent,0.45
+State,Rhode Island,Associate's Degree,2019,Percent,0.09
+State,Rhode Island,Bachelor's Degree,2019,Percent,0.23
+State,Rhode Island,Graduate degree,2019,Percent,0.14
+State,Rhode Island,Not a high school graduate,2018,Percent,0.09
+State,Rhode Island,High school diploma or GED,2018,Percent,0.47
+State,Rhode Island,Associate's Degree,2018,Percent,0.09
+State,Rhode Island,Bachelor's Degree,2018,Percent,0.22
+State,Rhode Island,Graduate degree,2018,Percent,0.14
+State,Rhode Island,Associate's Degree,2017,Percent,0.08
+State,Rhode Island,High school diploma or GED,2017,Percent,0.47
+State,Rhode Island,Graduate degree,2016,Percent,0.13
+State,Rhode Island,Not a high school graduate,2017,Percent,0.1
+State,Rhode Island,Bachelor's Degree,2016,Percent,0.23
+State,Rhode Island,Associate's Degree,2016,Percent,0.09
+State,Rhode Island,High school diploma or GED,2016,Percent,0.46
+State,Rhode Island,Not a high school graduate,2016,Percent,0.09
+State,Pennsylvania,Not a high school graduate,2019,Percent,0.08
+State,Pennsylvania,High school diploma or GED,2019,Percent,0.48
+State,Pennsylvania,Associate's Degree,2019,Percent,0.1
+State,Pennsylvania,Bachelor's Degree,2019,Percent,0.22
+State,Pennsylvania,Graduate degree,2019,Percent,0.13
+State,Pennsylvania,Not a high school graduate,2018,Percent,0.08
+State,Pennsylvania,High school diploma or GED,2018,Percent,0.48
+State,Pennsylvania,Associate's Degree,2018,Percent,0.1
+State,Pennsylvania,Bachelor's Degree,2018,Percent,0.21
+State,Pennsylvania,Graduate degree,2018,Percent,0.13
+State,Pennsylvania,Graduate degree,2017,Percent,0.13
+State,Pennsylvania,Bachelor's Degree,2017,Percent,0.21
+State,Pennsylvania,Associate's Degree,2017,Percent,0.09
+State,Pennsylvania,High school diploma or GED,2017,Percent,0.49
+State,Pennsylvania,Not a high school graduate,2017,Percent,0.08
+State,Pennsylvania,Graduate degree,2016,Percent,0.12
+State,Pennsylvania,Bachelor's Degree,2016,Percent,0.21
+State,Pennsylvania,Associate's Degree,2016,Percent,0.09
+State,Pennsylvania,High school diploma or GED,2016,Percent,0.49
+State,Pennsylvania,Not a high school graduate,2016,Percent,0.08
+State,Oregon,Graduate degree,2017,Percent,0.13
+State,Oregon,Bachelor's Degree,2017,Percent,0.22
+State,Oregon,Not a high school graduate,2019,Percent,0.09
+State,Oregon,High school diploma or GED,2019,Percent,0.46
+State,Oregon,Associate's Degree,2019,Percent,0.09
+State,Oregon,Bachelor's Degree,2019,Percent,0.22
+State,Oregon,Graduate degree,2019,Percent,0.13
+State,Oregon,Not a high school graduate,2018,Percent,0.1
+State,Oregon,High school diploma or GED,2018,Percent,0.46
+State,Oregon,Associate's Degree,2018,Percent,0.09
+State,Oregon,Bachelor's Degree,2018,Percent,0.22
+State,Oregon,Graduate degree,2018,Percent,0.13
+State,Oregon,Associate's Degree,2017,Percent,0.09
+State,Oregon,High school diploma or GED,2017,Percent,0.47
+State,Oregon,Not a high school graduate,2017,Percent,0.09
+State,Oregon,Graduate degree,2016,Percent,0.13
+State,Oregon,Bachelor's Degree,2016,Percent,0.21
+State,Oregon,Associate's Degree,2016,Percent,0.09
+State,Oregon,High school diploma or GED,2016,Percent,0.47
+State,Oregon,Not a high school graduate,2016,Percent,0.1
+State,Oklahoma,Not a high school graduate,2019,Percent,0.11
+State,Oklahoma,High school diploma or GED,2019,Percent,0.54
+State,Oklahoma,Associate's Degree,2019,Percent,0.08
+State,Oklahoma,Bachelor's Degree,2019,Percent,0.18
+State,Oklahoma,Graduate degree,2019,Percent,0.09
+State,Oklahoma,Not a high school graduate,2018,Percent,0.11
+State,Oklahoma,High school diploma or GED,2018,Percent,0.54
+State,Oklahoma,Associate's Degree,2018,Percent,0.09
+State,Oklahoma,Bachelor's Degree,2018,Percent,0.17
+State,Oklahoma,Graduate degree,2018,Percent,0.09
+State,Oklahoma,Graduate degree,2017,Percent,0.08
+State,Oklahoma,Bachelor's Degree,2017,Percent,0.18
+State,Oklahoma,Associate's Degree,2017,Percent,0.09
+State,Oklahoma,High school diploma or GED,2017,Percent,0.54
+State,Oklahoma,Not a high school graduate,2017,Percent,0.11
+State,Oklahoma,Graduate degree,2016,Percent,0.08
+State,Oklahoma,Bachelor's Degree,2016,Percent,0.18
+State,Oklahoma,Associate's Degree,2016,Percent,0.09
+State,Oklahoma,High school diploma or GED,2016,Percent,0.54
+State,Oklahoma,Not a high school graduate,2016,Percent,0.11
+State,Ohio,Not a high school graduate,2019,Percent,0.08
+State,Ohio,High school diploma or GED,2019,Percent,0.51
+State,Ohio,Associate's Degree,2019,Percent,0.1
+State,Ohio,Bachelor's Degree,2019,Percent,0.2
+State,Ohio,Graduate degree,2019,Percent,0.11
+State,Ohio,Not a high school graduate,2018,Percent,0.08
+State,Ohio,High school diploma or GED,2018,Percent,0.51
+State,Ohio,Associate's Degree,2018,Percent,0.1
+State,Ohio,Bachelor's Degree,2018,Percent,0.2
+State,Ohio,Graduate degree,2018,Percent,0.11
+State,Ohio,Graduate degree,2017,Percent,0.11
+State,Ohio,Bachelor's Degree,2017,Percent,0.19
+State,Ohio,Associate's Degree,2017,Percent,0.1
+State,Ohio,High school diploma or GED,2017,Percent,0.52
+State,Ohio,Not a high school graduate,2017,Percent,0.08
+State,Ohio,Graduate degree,2016,Percent,0.11
+State,Ohio,Bachelor's Degree,2016,Percent,0.19
+State,Ohio,Associate's Degree,2016,Percent,0.1
+State,Ohio,High school diploma or GED,2016,Percent,0.52
+State,Ohio,Not a high school graduate,2016,Percent,0.08
+State,North Dakota,Not a high school graduate,2019,Percent,0.05
+State,North Dakota,High school diploma or GED,2019,Percent,0.47
+State,North Dakota,Associate's Degree,2019,Percent,0.16
+State,North Dakota,Bachelor's Degree,2019,Percent,0.23
+State,North Dakota,Graduate degree,2019,Percent,0.09
+State,North Dakota,Not a high school graduate,2018,Percent,0.06
+State,North Dakota,High school diploma or GED,2018,Percent,0.45
+State,North Dakota,Associate's Degree,2018,Percent,0.17
+State,North Dakota,Bachelor's Degree,2018,Percent,0.24
+State,North Dakota,Graduate degree,2018,Percent,0.08
+State,North Dakota,Graduate degree,2017,Percent,0.1
+State,North Dakota,Bachelor's Degree,2017,Percent,0.24
+State,North Dakota,Associate's Degree,2017,Percent,0.15
+State,North Dakota,High school diploma or GED,2017,Percent,0.47
+State,North Dakota,Graduate degree,2016,Percent,0.09
+State,North Dakota,Not a high school graduate,2017,Percent,0.05
+State,North Dakota,Bachelor's Degree,2016,Percent,0.23
+State,North Dakota,Associate's Degree,2016,Percent,0.16
+State,North Dakota,High school diploma or GED,2016,Percent,0.47
+State,North Dakota,Not a high school graduate,2016,Percent,0.06
+State,North Carolina,Graduate degree,2017,Percent,0.11
+State,North Carolina,Bachelor's Degree,2017,Percent,0.22
+State,North Carolina,Associate's Degree,2017,Percent,0.1
+State,North Carolina,Not a high school graduate,2019,Percent,0.11
+State,North Carolina,High school diploma or GED,2019,Percent,0.45
+State,North Carolina,Associate's Degree,2019,Percent,0.11
+State,North Carolina,Bachelor's Degree,2019,Percent,0.22
+State,North Carolina,Graduate degree,2019,Percent,0.12
+State,North Carolina,Not a high school graduate,2018,Percent,0.11
+State,North Carolina,High school diploma or GED,2018,Percent,0.45
+State,North Carolina,Associate's Degree,2018,Percent,0.1
+State,North Carolina,Bachelor's Degree,2018,Percent,0.22
+State,North Carolina,Graduate degree,2018,Percent,0.11
+State,North Carolina,High school diploma or GED,2017,Percent,0.46
+State,North Carolina,Not a high school graduate,2017,Percent,0.11
+State,North Carolina,Graduate degree,2016,Percent,0.11
+State,North Carolina,Bachelor's Degree,2016,Percent,0.21
+State,North Carolina,Associate's Degree,2016,Percent,0.1
+State,North Carolina,High school diploma or GED,2016,Percent,0.46
+State,North Carolina,Not a high school graduate,2016,Percent,0.11
+State,New York,Graduate degree,2017,Percent,0.16
+State,New York,Bachelor's Degree,2017,Percent,0.22
+State,New York,Associate's Degree,2017,Percent,0.1
+State,New York,Not a high school graduate,2019,Percent,0.11
+State,New York,High school diploma or GED,2019,Percent,0.4
+State,New York,Associate's Degree,2019,Percent,0.09
+State,New York,Bachelor's Degree,2019,Percent,0.23
+State,New York,Graduate degree,2019,Percent,0.17
+State,New York,Not a high school graduate,2018,Percent,0.11
+State,New York,High school diploma or GED,2018,Percent,0.4
+State,New York,Associate's Degree,2018,Percent,0.09
+State,New York,Bachelor's Degree,2018,Percent,0.23
+State,New York,Graduate degree,2018,Percent,0.17
+State,New York,High school diploma or GED,2017,Percent,0.4
+State,New York,Not a high school graduate,2017,Percent,0.12
+State,New York,Graduate degree,2016,Percent,0.16
+State,New York,Bachelor's Degree,2016,Percent,0.22
+State,New York,Associate's Degree,2016,Percent,0.09
+State,New York,High school diploma or GED,2016,Percent,0.41
+State,New York,Not a high school graduate,2016,Percent,0.12
+State,New Mexico,Graduate degree,2017,Percent,0.11
+State,New Mexico,Bachelor's Degree,2017,Percent,0.15
+State,New Mexico,Not a high school graduate,2019,Percent,0.13
+State,New Mexico,High school diploma or GED,2019,Percent,0.5
+State,New Mexico,Associate's Degree,2019,Percent,0.1
+State,New Mexico,Bachelor's Degree,2019,Percent,0.16
+State,New Mexico,Graduate degree,2019,Percent,0.11
+State,New Mexico,Not a high school graduate,2018,Percent,0.14
+State,New Mexico,High school diploma or GED,2018,Percent,0.51
+State,New Mexico,Associate's Degree,2018,Percent,0.09
+State,New Mexico,Bachelor's Degree,2018,Percent,0.16
+State,New Mexico,Graduate degree,2018,Percent,0.11
+State,New Mexico,Associate's Degree,2017,Percent,0.09
+State,New Mexico,High school diploma or GED,2017,Percent,0.52
+State,New Mexico,Not a high school graduate,2017,Percent,0.13
+State,New Mexico,Graduate degree,2016,Percent,0.1
+State,New Mexico,Bachelor's Degree,2016,Percent,0.16
+State,New Mexico,Associate's Degree,2016,Percent,0.09
+State,New Mexico,High school diploma or GED,2016,Percent,0.51
+State,New Mexico,Not a high school graduate,2016,Percent,0.14
+State,New Jersey,Graduate degree,2017,Percent,0.16
+State,New Jersey,Bachelor's Degree,2017,Percent,0.26
+State,New Jersey,Not a high school graduate,2019,Percent,0.08
+State,New Jersey,High school diploma or GED,2019,Percent,0.41
+State,New Jersey,Associate's Degree,2019,Percent,0.07
+State,New Jersey,Bachelor's Degree,2019,Percent,0.27
+State,New Jersey,Graduate degree,2019,Percent,0.17
+State,New Jersey,Not a high school graduate,2018,Percent,0.08
+State,New Jersey,High school diploma or GED,2018,Percent,0.41
+State,New Jersey,Associate's Degree,2018,Percent,0.07
+State,New Jersey,Bachelor's Degree,2018,Percent,0.27
+State,New Jersey,Graduate degree,2018,Percent,0.17
+State,New Jersey,Associate's Degree,2017,Percent,0.07
+State,New Jersey,High school diploma or GED,2017,Percent,0.42
+State,New Jersey,Graduate degree,2016,Percent,0.15
+State,New Jersey,Not a high school graduate,2017,Percent,0.08
+State,New Jersey,Bachelor's Degree,2016,Percent,0.26
+State,New Jersey,Associate's Degree,2016,Percent,0.07
+State,New Jersey,High school diploma or GED,2016,Percent,0.43
+State,New Jersey,Not a high school graduate,2016,Percent,0.09
+State,New Hampshire,Graduate degree,2017,Percent,0.14
+State,New Hampshire,Not a high school graduate,2019,Percent,0.06
+State,New Hampshire,High school diploma or GED,2019,Percent,0.45
+State,New Hampshire,Associate's Degree,2019,Percent,0.1
+State,New Hampshire,Bachelor's Degree,2019,Percent,0.24
+State,New Hampshire,Graduate degree,2019,Percent,0.14
+State,New Hampshire,Not a high school graduate,2018,Percent,0.06
+State,New Hampshire,High school diploma or GED,2018,Percent,0.46
+State,New Hampshire,Associate's Degree,2018,Percent,0.11
+State,New Hampshire,Bachelor's Degree,2018,Percent,0.24
+State,New Hampshire,Graduate degree,2018,Percent,0.14
+State,New Hampshire,Bachelor's Degree,2017,Percent,0.24
+State,New Hampshire,Associate's Degree,2017,Percent,0.11
+State,New Hampshire,High school diploma or GED,2017,Percent,0.45
+State,New Hampshire,Not a high school graduate,2017,Percent,0.06
+State,New Hampshire,Graduate degree,2016,Percent,0.13
+State,New Hampshire,Bachelor's Degree,2016,Percent,0.24
+State,New Hampshire,Associate's Degree,2016,Percent,0.11
+State,New Hampshire,High school diploma or GED,2016,Percent,0.45
+State,New Hampshire,Not a high school graduate,2016,Percent,0.06
+State,Nevada,Graduate degree,2017,Percent,0.08
+State,Nevada,Bachelor's Degree,2017,Percent,0.17
+State,Nevada,Not a high school graduate,2019,Percent,0.14
+State,Nevada,High school diploma or GED,2019,Percent,0.52
+State,Nevada,Associate's Degree,2019,Percent,0.09
+State,Nevada,Bachelor's Degree,2019,Percent,0.17
+State,Nevada,Graduate degree,2019,Percent,0.08
+State,Nevada,Not a high school graduate,2018,Percent,0.13
+State,Nevada,High school diploma or GED,2018,Percent,0.54
+State,Nevada,Associate's Degree,2018,Percent,0.08
+State,Nevada,Bachelor's Degree,2018,Percent,0.16
+State,Nevada,Graduate degree,2018,Percent,0.08
+State,Nevada,Associate's Degree,2017,Percent,0.08
+State,Nevada,High school diploma or GED,2017,Percent,0.54
+State,Nevada,Not a high school graduate,2017,Percent,0.13
+State,Nevada,Graduate degree,2016,Percent,0.07
+State,Nevada,Bachelor's Degree,2016,Percent,0.16
+State,Nevada,Associate's Degree,2016,Percent,0.08
+State,Nevada,High school diploma or GED,2016,Percent,0.55
+State,Nevada,Not a high school graduate,2016,Percent,0.14
+State,Nebraska,Graduate degree,2017,Percent,0.11
+State,Nebraska,Not a high school graduate,2019,Percent,0.08
+State,Nebraska,High school diploma or GED,2019,Percent,0.44
+State,Nebraska,Associate's Degree,2019,Percent,0.12
+State,Nebraska,Bachelor's Degree,2019,Percent,0.24
+State,Nebraska,Graduate degree,2019,Percent,0.12
+State,Nebraska,Not a high school graduate,2018,Percent,0.08
+State,Nebraska,High school diploma or GED,2018,Percent,0.45
+State,Nebraska,Associate's Degree,2018,Percent,0.12
+State,Nebraska,Bachelor's Degree,2018,Percent,0.23
+State,Nebraska,Graduate degree,2018,Percent,0.12
+State,Nebraska,Bachelor's Degree,2017,Percent,0.23
+State,Nebraska,Associate's Degree,2017,Percent,0.12
+State,Nebraska,High school diploma or GED,2017,Percent,0.46
+State,Nebraska,Not a high school graduate,2017,Percent,0.08
+State,Nebraska,Graduate degree,2016,Percent,0.11
+State,Nebraska,Bachelor's Degree,2016,Percent,0.23
+State,Nebraska,Associate's Degree,2016,Percent,0.12
+State,Nebraska,High school diploma or GED,2016,Percent,0.46
+State,Nebraska,Not a high school graduate,2016,Percent,0.09
+State,Montana,Not a high school graduate,2019,Percent,0.05
+State,Montana,High school diploma or GED,2019,Percent,0.5
+State,Montana,Associate's Degree,2019,Percent,0.1
+State,Montana,Bachelor's Degree,2019,Percent,0.25
+State,Montana,Graduate degree,2019,Percent,0.1
+State,Montana,Not a high school graduate,2018,Percent,0.05
+State,Montana,High school diploma or GED,2018,Percent,0.52
+State,Montana,Associate's Degree,2018,Percent,0.11
+State,Montana,Bachelor's Degree,2018,Percent,0.22
+State,Montana,Graduate degree,2018,Percent,0.11
+State,Montana,Graduate degree,2017,Percent,0.1
+State,Montana,Bachelor's Degree,2017,Percent,0.23
+State,Montana,Associate's Degree,2017,Percent,0.1
+State,Montana,High school diploma or GED,2017,Percent,0.51
+State,Montana,Not a high school graduate,2017,Percent,0.07
+State,Montana,Graduate degree,2016,Percent,0.1
+State,Montana,Bachelor's Degree,2016,Percent,0.22
+State,Montana,Associate's Degree,2016,Percent,0.1
+State,Montana,High school diploma or GED,2016,Percent,0.52
+State,Montana,Not a high school graduate,2016,Percent,0.06
+State,Missouri,Graduate degree,2017,Percent,0.11
+State,Missouri,Bachelor's Degree,2017,Percent,0.2
+State,Missouri,Associate's Degree,2017,Percent,0.09
+State,Missouri,Not a high school graduate,2019,Percent,0.08
+State,Missouri,High school diploma or GED,2019,Percent,0.51
+State,Missouri,Associate's Degree,2019,Percent,0.09
+State,Missouri,Bachelor's Degree,2019,Percent,0.2
+State,Missouri,Graduate degree,2019,Percent,0.12
+State,Missouri,Not a high school graduate,2018,Percent,0.08
+State,Missouri,High school diploma or GED,2018,Percent,0.51
+State,Missouri,Associate's Degree,2018,Percent,0.09
+State,Missouri,Bachelor's Degree,2018,Percent,0.2
+State,Missouri,Graduate degree,2018,Percent,0.12
+State,Missouri,High school diploma or GED,2017,Percent,0.51
+State,Missouri,Not a high school graduate,2017,Percent,0.09
+State,Missouri,Graduate degree,2016,Percent,0.11
+State,Missouri,Bachelor's Degree,2016,Percent,0.19
+State,Missouri,Associate's Degree,2016,Percent,0.09
+State,Missouri,High school diploma or GED,2016,Percent,0.52
+State,Missouri,Not a high school graduate,2016,Percent,0.09
+State,Mississippi,Graduate degree,2017,Percent,0.08
+State,Mississippi,Bachelor's Degree,2017,Percent,0.14
+State,Mississippi,Not a high school graduate,2019,Percent,0.13
+State,Mississippi,High school diploma or GED,2019,Percent,0.53
+State,Mississippi,Associate's Degree,2019,Percent,0.12
+State,Mississippi,Bachelor's Degree,2019,Percent,0.14
+State,Mississippi,Graduate degree,2019,Percent,0.08
+State,Mississippi,Not a high school graduate,2018,Percent,0.13
+State,Mississippi,High school diploma or GED,2018,Percent,0.52
+State,Mississippi,Associate's Degree,2018,Percent,0.11
+State,Mississippi,Bachelor's Degree,2018,Percent,0.15
+State,Mississippi,Graduate degree,2018,Percent,0.09
+State,Mississippi,Associate's Degree,2017,Percent,0.11
+State,Mississippi,High school diploma or GED,2017,Percent,0.52
+State,Mississippi,Not a high school graduate,2017,Percent,0.14
+State,Mississippi,Graduate degree,2016,Percent,0.08
+State,Mississippi,Bachelor's Degree,2016,Percent,0.14
+State,Mississippi,Associate's Degree,2016,Percent,0.1
+State,Mississippi,High school diploma or GED,2016,Percent,0.54
+State,Mississippi,Not a high school graduate,2016,Percent,0.14
+State,Minnesota,Graduate degree,2017,Percent,0.13
+State,Minnesota,Bachelor's Degree,2017,Percent,0.25
+State,Minnesota,Associate's Degree,2017,Percent,0.13
+State,Minnesota,Not a high school graduate,2019,Percent,0.06
+State,Minnesota,High school diploma or GED,2019,Percent,0.42
+State,Minnesota,Associate's Degree,2019,Percent,0.13
+State,Minnesota,Bachelor's Degree,2019,Percent,0.27
+State,Minnesota,Graduate degree,2019,Percent,0.13
+State,Minnesota,Not a high school graduate,2018,Percent,0.06
+State,Minnesota,High school diploma or GED,2018,Percent,0.42
+State,Minnesota,Associate's Degree,2018,Percent,0.13
+State,Minnesota,Bachelor's Degree,2018,Percent,0.26
+State,Minnesota,Graduate degree,2018,Percent,0.13
+State,Minnesota,High school diploma or GED,2017,Percent,0.43
+State,Minnesota,Not a high school graduate,2017,Percent,0.06
+State,Minnesota,Bachelor's Degree,2016,Percent,0.25
+State,Minnesota,Graduate degree,2016,Percent,0.12
+State,Minnesota,Associate's Degree,2016,Percent,0.13
+State,Minnesota,High school diploma or GED,2016,Percent,0.44
+State,Minnesota,Not a high school graduate,2016,Percent,0.06
+State,Michigan,Not a high school graduate,2019,Percent,0.08
+State,Michigan,High school diploma or GED,2019,Percent,0.5
+State,Michigan,Associate's Degree,2019,Percent,0.1
+State,Michigan,Bachelor's Degree,2019,Percent,0.2
+State,Michigan,Graduate degree,2019,Percent,0.12
+State,Michigan,Not a high school graduate,2018,Percent,0.08
+State,Michigan,High school diploma or GED,2018,Percent,0.5
+State,Michigan,Associate's Degree,2018,Percent,0.1
+State,Michigan,Bachelor's Degree,2018,Percent,0.2
+State,Michigan,Graduate degree,2018,Percent,0.12
+State,Michigan,Graduate degree,2017,Percent,0.11
+State,Michigan,Bachelor's Degree,2017,Percent,0.19
+State,Michigan,Associate's Degree,2017,Percent,0.1
+State,Michigan,High school diploma or GED,2017,Percent,0.51
+State,Michigan,Not a high school graduate,2017,Percent,0.08
+State,Michigan,Graduate degree,2016,Percent,0.11
+State,Michigan,Bachelor's Degree,2016,Percent,0.19
+State,Michigan,Associate's Degree,2016,Percent,0.1
+State,Michigan,High school diploma or GED,2016,Percent,0.52
+State,Michigan,Not a high school graduate,2016,Percent,0.08
+State,Massachusetts,Not a high school graduate,2019,Percent,0.07
+State,Massachusetts,High school diploma or GED,2019,Percent,0.37
+State,Massachusetts,Associate's Degree,2019,Percent,0.07
+State,Massachusetts,Bachelor's Degree,2019,Percent,0.27
+State,Massachusetts,Graduate degree,2019,Percent,0.21
+State,Massachusetts,Not a high school graduate,2018,Percent,0.08
+State,Massachusetts,High school diploma or GED,2018,Percent,0.37
+State,Massachusetts,Associate's Degree,2018,Percent,0.08
+State,Massachusetts,Bachelor's Degree,2018,Percent,0.27
+State,Massachusetts,Graduate degree,2018,Percent,0.21
+State,Massachusetts,Graduate degree,2017,Percent,0.2
+State,Massachusetts,Bachelor's Degree,2017,Percent,0.26
+State,Massachusetts,Associate's Degree,2017,Percent,0.08
+State,Massachusetts,High school diploma or GED,2017,Percent,0.38
+State,Massachusetts,Not a high school graduate,2017,Percent,0.08
+State,Massachusetts,Graduate degree,2016,Percent,0.19
+State,Massachusetts,Bachelor's Degree,2016,Percent,0.26
+State,Massachusetts,Associate's Degree,2016,Percent,0.08
+State,Massachusetts,High school diploma or GED,2016,Percent,0.39
+State,Massachusetts,Not a high school graduate,2016,Percent,0.08
+State,Maryland,Graduate degree,2017,Percent,0.18
+State,Maryland,Not a high school graduate,2019,Percent,0.08
+State,Maryland,High school diploma or GED,2019,Percent,0.42
+State,Maryland,Associate's Degree,2019,Percent,0.07
+State,Maryland,Bachelor's Degree,2019,Percent,0.23
+State,Maryland,Graduate degree,2019,Percent,0.19
+State,Maryland,Not a high school graduate,2018,Percent,0.08
+State,Maryland,High school diploma or GED,2018,Percent,0.42
+State,Maryland,Associate's Degree,2018,Percent,0.07
+State,Maryland,Bachelor's Degree,2018,Percent,0.23
+State,Maryland,Graduate degree,2018,Percent,0.19
+State,Maryland,Bachelor's Degree,2017,Percent,0.23
+State,Maryland,Associate's Degree,2017,Percent,0.07
+State,Maryland,High school diploma or GED,2017,Percent,0.42
+State,Maryland,Not a high school graduate,2017,Percent,0.09
+State,Maryland,Graduate degree,2016,Percent,0.19
+State,Maryland,Bachelor's Degree,2016,Percent,0.22
+State,Maryland,Associate's Degree,2016,Percent,0.07
+State,Maryland,High school diploma or GED,2016,Percent,0.44
+State,Maryland,Not a high school graduate,2016,Percent,0.09
+State,Maine,Not a high school graduate,2019,Percent,0.05
+State,Maine,High school diploma or GED,2019,Percent,0.5
+State,Maine,Associate's Degree,2019,Percent,0.11
+State,Maine,Bachelor's Degree,2019,Percent,0.22
+State,Maine,Graduate degree,2019,Percent,0.12
+State,Maine,Not a high school graduate,2018,Percent,0.06
+State,Maine,High school diploma or GED,2018,Percent,0.52
+State,Maine,Associate's Degree,2018,Percent,0.11
+State,Maine,Bachelor's Degree,2018,Percent,0.22
+State,Maine,Graduate degree,2018,Percent,0.1
+State,Maine,Graduate degree,2017,Percent,0.11
+State,Maine,Bachelor's Degree,2017,Percent,0.21
+State,Maine,Associate's Degree,2017,Percent,0.12
+State,Maine,High school diploma or GED,2017,Percent,0.5
+State,Maine,Not a high school graduate,2017,Percent,0.06
+State,Maine,Graduate degree,2016,Percent,0.11
+State,Maine,Bachelor's Degree,2016,Percent,0.2
+State,Maine,Associate's Degree,2016,Percent,0.11
+State,Maine,High school diploma or GED,2016,Percent,0.52
+State,Maine,Not a high school graduate,2016,Percent,0.06
+State,Louisiana,Graduate degree,2017,Percent,0.08
+State,Louisiana,Bachelor's Degree,2017,Percent,0.16
+State,Louisiana,Not a high school graduate,2019,Percent,0.13
+State,Louisiana,High school diploma or GED,2019,Percent,0.54
+State,Louisiana,Associate's Degree,2019,Percent,0.07
+State,Louisiana,Bachelor's Degree,2019,Percent,0.17
+State,Louisiana,Graduate degree,2019,Percent,0.09
+State,Louisiana,Not a high school graduate,2018,Percent,0.13
+State,Louisiana,High school diploma or GED,2018,Percent,0.55
+State,Louisiana,Associate's Degree,2018,Percent,0.07
+State,Louisiana,Bachelor's Degree,2018,Percent,0.17
+State,Louisiana,Graduate degree,2018,Percent,0.08
+State,Louisiana,Associate's Degree,2017,Percent,0.07
+State,Louisiana,High school diploma or GED,2017,Percent,0.55
+State,Louisiana,Not a high school graduate,2017,Percent,0.14
+State,Louisiana,Graduate degree,2016,Percent,0.08
+State,Louisiana,Bachelor's Degree,2016,Percent,0.16
+State,Louisiana,Associate's Degree,2016,Percent,0.07
+State,Louisiana,High school diploma or GED,2016,Percent,0.55
+State,Louisiana,Not a high school graduate,2016,Percent,0.14
+State,Kentucky,Graduate degree,2017,Percent,0.1
+State,Kentucky,Bachelor's Degree,2017,Percent,0.15
+State,Kentucky,Not a high school graduate,2019,Percent,0.11
+State,Kentucky,High school diploma or GED,2019,Percent,0.53
+State,Kentucky,Associate's Degree,2019,Percent,0.1
+State,Kentucky,Bachelor's Degree,2019,Percent,0.16
+State,Kentucky,Graduate degree,2019,Percent,0.1
+State,Kentucky,Not a high school graduate,2018,Percent,0.11
+State,Kentucky,High school diploma or GED,2018,Percent,0.53
+State,Kentucky,Associate's Degree,2018,Percent,0.1
+State,Kentucky,Bachelor's Degree,2018,Percent,0.16
+State,Kentucky,Graduate degree,2018,Percent,0.1
+State,Kentucky,Associate's Degree,2017,Percent,0.09
+State,Kentucky,High school diploma or GED,2017,Percent,0.54
+State,Kentucky,Not a high school graduate,2017,Percent,0.11
+State,Kentucky,Graduate degree,2016,Percent,0.1
+State,Kentucky,Bachelor's Degree,2016,Percent,0.15
+State,Kentucky,Associate's Degree,2016,Percent,0.1
+State,Kentucky,High school diploma or GED,2016,Percent,0.53
+State,Kentucky,Not a high school graduate,2016,Percent,0.12
+State,Kansas,Graduate degree,2017,Percent,0.13
+State,Kansas,Bachelor's Degree,2017,Percent,0.23
+State,Kansas,Not a high school graduate,2019,Percent,0.08
+State,Kansas,High school diploma or GED,2019,Percent,0.46
+State,Kansas,Associate's Degree,2019,Percent,0.1
+State,Kansas,Bachelor's Degree,2019,Percent,0.23
+State,Kansas,Graduate degree,2019,Percent,0.12
+State,Kansas,Not a high school graduate,2018,Percent,0.09
+State,Kansas,High school diploma or GED,2018,Percent,0.46
+State,Kansas,Associate's Degree,2018,Percent,0.1
+State,Kansas,Bachelor's Degree,2018,Percent,0.23
+State,Kansas,Graduate degree,2018,Percent,0.13
+State,Kansas,Associate's Degree,2017,Percent,0.1
+State,Kansas,High school diploma or GED,2017,Percent,0.46
+State,Kansas,Not a high school graduate,2017,Percent,0.09
+State,Kansas,Graduate degree,2016,Percent,0.12
+State,Kansas,Bachelor's Degree,2016,Percent,0.22
+State,Kansas,Associate's Degree,2016,Percent,0.09
+State,Kansas,High school diploma or GED,2016,Percent,0.47
+State,Kansas,Not a high school graduate,2016,Percent,0.09
+State,Iowa,Graduate degree,2017,Percent,0.1
+State,Iowa,Bachelor's Degree,2017,Percent,0.21
+State,Iowa,Associate's Degree,2017,Percent,0.13
+State,Iowa,Not a high school graduate,2019,Percent,0.07
+State,Iowa,High school diploma or GED,2019,Percent,0.48
+State,Iowa,Associate's Degree,2019,Percent,0.14
+State,Iowa,Bachelor's Degree,2019,Percent,0.22
+State,Iowa,Graduate degree,2019,Percent,0.1
+State,Iowa,Not a high school graduate,2018,Percent,0.07
+State,Iowa,High school diploma or GED,2018,Percent,0.48
+State,Iowa,Associate's Degree,2018,Percent,0.13
+State,Iowa,Bachelor's Degree,2018,Percent,0.22
+State,Iowa,Graduate degree,2018,Percent,0.1
+State,Iowa,High school diploma or GED,2017,Percent,0.49
+State,Iowa,Graduate degree,2016,Percent,0.1
+State,Iowa,Not a high school graduate,2017,Percent,0.07
+State,Iowa,Bachelor's Degree,2016,Percent,0.21
+State,Iowa,Associate's Degree,2016,Percent,0.13
+State,Iowa,High school diploma or GED,2016,Percent,0.49
+State,Iowa,Not a high school graduate,2016,Percent,0.07
+State,Indiana,Graduate degree,2017,Percent,0.09
+State,Indiana,Bachelor's Degree,2017,Percent,0.19
+State,Indiana,Associate's Degree,2017,Percent,0.1
+State,Indiana,Not a high school graduate,2019,Percent,0.1
+State,Indiana,High school diploma or GED,2019,Percent,0.52
+State,Indiana,Associate's Degree,2019,Percent,0.1
+State,Indiana,Bachelor's Degree,2019,Percent,0.19
+State,Indiana,Graduate degree,2019,Percent,0.09
+State,Indiana,Not a high school graduate,2018,Percent,0.1
+State,Indiana,High school diploma or GED,2018,Percent,0.51
+State,Indiana,Associate's Degree,2018,Percent,0.1
+State,Indiana,Bachelor's Degree,2018,Percent,0.19
+State,Indiana,Graduate degree,2018,Percent,0.1
+State,Indiana,High school diploma or GED,2017,Percent,0.51
+State,Indiana,Graduate degree,2016,Percent,0.09
+State,Indiana,Not a high school graduate,2017,Percent,0.1
+State,Indiana,Bachelor's Degree,2016,Percent,0.18
+State,Indiana,Associate's Degree,2016,Percent,0.1
+State,Indiana,High school diploma or GED,2016,Percent,0.53
+State,Indiana,Not a high school graduate,2016,Percent,0.1
+State,Illinois,Graduate degree,2017,Percent,0.14
+State,Illinois,Bachelor's Degree,2017,Percent,0.23
+State,Illinois,Associate's Degree,2017,Percent,0.09
+State,Illinois,Not a high school graduate,2019,Percent,0.09
+State,Illinois,High school diploma or GED,2019,Percent,0.44
+State,Illinois,Associate's Degree,2019,Percent,0.09
+State,Illinois,Bachelor's Degree,2019,Percent,0.24
+State,Illinois,Graduate degree,2019,Percent,0.15
+State,Illinois,Not a high school graduate,2018,Percent,0.09
+State,Illinois,High school diploma or GED,2018,Percent,0.44
+State,Illinois,Associate's Degree,2018,Percent,0.09
+State,Illinois,Bachelor's Degree,2018,Percent,0.23
+State,Illinois,Graduate degree,2018,Percent,0.15
+State,Illinois,High school diploma or GED,2017,Percent,0.45
+State,Illinois,Not a high school graduate,2017,Percent,0.1
+State,Illinois,Graduate degree,2016,Percent,0.14
+State,Illinois,Bachelor's Degree,2016,Percent,0.23
+State,Illinois,Associate's Degree,2016,Percent,0.09
+State,Illinois,High school diploma or GED,2016,Percent,0.45
+State,Illinois,Not a high school graduate,2016,Percent,0.1
+State,Idaho,Graduate degree,2017,Percent,0.08
+State,Idaho,Not a high school graduate,2019,Percent,0.08
+State,Idaho,High school diploma or GED,2019,Percent,0.51
+State,Idaho,Associate's Degree,2019,Percent,0.11
+State,Idaho,Bachelor's Degree,2019,Percent,0.2
+State,Idaho,Graduate degree,2019,Percent,0.09
+State,Idaho,Not a high school graduate,2018,Percent,0.09
+State,Idaho,High school diploma or GED,2018,Percent,0.52
+State,Idaho,Associate's Degree,2018,Percent,0.11
+State,Idaho,Bachelor's Degree,2018,Percent,0.2
+State,Idaho,Graduate degree,2018,Percent,0.09
+State,Idaho,Bachelor's Degree,2017,Percent,0.19
+State,Idaho,Associate's Degree,2017,Percent,0.11
+State,Idaho,High school diploma or GED,2017,Percent,0.54
+State,Idaho,Not a high school graduate,2017,Percent,0.09
+State,Idaho,Graduate degree,2016,Percent,0.09
+State,Idaho,Bachelor's Degree,2016,Percent,0.19
+State,Idaho,Associate's Degree,2016,Percent,0.1
+State,Idaho,High school diploma or GED,2016,Percent,0.52
+State,Idaho,Not a high school graduate,2016,Percent,0.09
+State,Hawaii,Graduate degree,2017,Percent,0.11
+State,Hawaii,Not a high school graduate,2019,Percent,0.06
+State,Hawaii,High school diploma or GED,2019,Percent,0.48
+State,Hawaii,Associate's Degree,2019,Percent,0.12
+State,Hawaii,Bachelor's Degree,2019,Percent,0.23
+State,Hawaii,Graduate degree,2019,Percent,0.11
+State,Hawaii,Not a high school graduate,2018,Percent,0.06
+State,Hawaii,High school diploma or GED,2018,Percent,0.48
+State,Hawaii,Associate's Degree,2018,Percent,0.12
+State,Hawaii,Bachelor's Degree,2018,Percent,0.23
+State,Hawaii,Graduate degree,2018,Percent,0.11
+State,Hawaii,Bachelor's Degree,2017,Percent,0.22
+State,Hawaii,Associate's Degree,2017,Percent,0.12
+State,Hawaii,High school diploma or GED,2017,Percent,0.49
+State,Hawaii,Graduate degree,2016,Percent,0.1
+State,Hawaii,Not a high school graduate,2017,Percent,0.06
+State,Hawaii,Bachelor's Degree,2016,Percent,0.23
+State,Hawaii,Associate's Degree,2016,Percent,0.12
+State,Hawaii,High school diploma or GED,2016,Percent,0.5
+State,Hawaii,Not a high school graduate,2016,Percent,0.06
+State,Georgia,Graduate degree,2017,Percent,0.12
+State,Georgia,Bachelor's Degree,2017,Percent,0.2
+State,Georgia,Not a high school graduate,2019,Percent,0.11
+State,Georgia,High school diploma or GED,2019,Percent,0.46
+State,Georgia,Associate's Degree,2019,Percent,0.08
+State,Georgia,Bachelor's Degree,2019,Percent,0.21
+State,Georgia,Graduate degree,2019,Percent,0.13
+State,Georgia,Not a high school graduate,2018,Percent,0.11
+State,Georgia,High school diploma or GED,2018,Percent,0.47
+State,Georgia,Associate's Degree,2018,Percent,0.09
+State,Georgia,Bachelor's Degree,2018,Percent,0.21
+State,Georgia,Graduate degree,2018,Percent,0.12
+State,Georgia,Associate's Degree,2017,Percent,0.08
+State,Georgia,High school diploma or GED,2017,Percent,0.48
+State,Georgia,Not a high school graduate,2017,Percent,0.12
+State,Georgia,Graduate degree,2016,Percent,0.12
+State,Georgia,Bachelor's Degree,2016,Percent,0.2
+State,Georgia,Associate's Degree,2016,Percent,0.08
+State,Georgia,High school diploma or GED,2016,Percent,0.48
+State,Georgia,Not a high school graduate,2016,Percent,0.12
+State,Florida,Not a high school graduate,2019,Percent,0.11
+State,Florida,High school diploma or GED,2019,Percent,0.47
+State,Florida,Associate's Degree,2019,Percent,0.11
+State,Florida,Bachelor's Degree,2019,Percent,0.2
+State,Florida,Graduate degree,2019,Percent,0.11
+State,Florida,Not a high school graduate,2018,Percent,0.1
+State,Florida,High school diploma or GED,2018,Percent,0.48
+State,Florida,Associate's Degree,2018,Percent,0.11
+State,Florida,Bachelor's Degree,2018,Percent,0.2
+State,Florida,Graduate degree,2018,Percent,0.11
+State,Florida,Graduate degree,2017,Percent,0.1
+State,Florida,Bachelor's Degree,2017,Percent,0.2
+State,Florida,Associate's Degree,2017,Percent,0.11
+State,Florida,High school diploma or GED,2017,Percent,0.48
+State,Florida,Graduate degree,2016,Percent,0.1
+State,Florida,Not a high school graduate,2017,Percent,0.11
+State,Florida,Bachelor's Degree,2016,Percent,0.19
+State,Florida,Associate's Degree,2016,Percent,0.11
+State,Florida,High school diploma or GED,2016,Percent,0.49
+State,Florida,Not a high school graduate,2016,Percent,0.11
+State,Delaware,Graduate degree,2017,Percent,0.13
+State,Delaware,Bachelor's Degree,2017,Percent,0.19
+State,Delaware,Associate's Degree,2017,Percent,0.08
+State,Delaware,Not a high school graduate,2019,Percent,0.09
+State,Delaware,High school diploma or GED,2019,Percent,0.47
+State,Delaware,Associate's Degree,2019,Percent,0.09
+State,Delaware,Bachelor's Degree,2019,Percent,0.21
+State,Delaware,Graduate degree,2019,Percent,0.13
+State,Delaware,Not a high school graduate,2018,Percent,0.1
+State,Delaware,High school diploma or GED,2018,Percent,0.51
+State,Delaware,Associate's Degree,2018,Percent,0.08
+State,Delaware,Bachelor's Degree,2018,Percent,0.19
+State,Delaware,Graduate degree,2018,Percent,0.13
+State,Delaware,High school diploma or GED,2017,Percent,0.51
+State,Delaware,Not a high school graduate,2017,Percent,0.09
+State,Delaware,Graduate degree,2016,Percent,0.13
+State,Delaware,Bachelor's Degree,2016,Percent,0.19
+State,Delaware,Associate's Degree,2016,Percent,0.08
+State,Delaware,High school diploma or GED,2016,Percent,0.5
+State,Delaware,Not a high school graduate,2016,Percent,0.1
+State,Connecticut,Graduate degree,2017,Percent,0.17
+State,Connecticut,Bachelor's Degree,2017,Percent,0.23
+State,Connecticut,Not a high school graduate,2019,Percent,0.08
+State,Connecticut,High school diploma or GED,2019,Percent,0.42
+State,Connecticut,Associate's Degree,2019,Percent,0.08
+State,Connecticut,Bachelor's Degree,2019,Percent,0.24
+State,Connecticut,Graduate degree,2019,Percent,0.18
+State,Connecticut,Not a high school graduate,2018,Percent,0.08
+State,Connecticut,High school diploma or GED,2018,Percent,0.42
+State,Connecticut,Associate's Degree,2018,Percent,0.08
+State,Connecticut,Bachelor's Degree,2018,Percent,0.24
+State,Connecticut,Graduate degree,2018,Percent,0.18
+State,Connecticut,Associate's Degree,2017,Percent,0.09
+State,Connecticut,High school diploma or GED,2017,Percent,0.43
+State,Connecticut,Not a high school graduate,2017,Percent,0.08
+State,Connecticut,Graduate degree,2016,Percent,0.17
+State,Connecticut,Bachelor's Degree,2016,Percent,0.24
+State,Connecticut,Associate's Degree,2016,Percent,0.08
+State,Connecticut,High school diploma or GED,2016,Percent,0.43
+State,Connecticut,Not a high school graduate,2016,Percent,0.08
+State,Colorado,Graduate degree,2017,Percent,0.15
+State,Colorado,Not a high school graduate,2019,Percent,0.07
+State,Colorado,High school diploma or GED,2019,Percent,0.4
+State,Colorado,Associate's Degree,2019,Percent,0.09
+State,Colorado,Bachelor's Degree,2019,Percent,0.28
+State,Colorado,Graduate degree,2019,Percent,0.15
+State,Colorado,Not a high school graduate,2018,Percent,0.08
+State,Colorado,High school diploma or GED,2018,Percent,0.41
+State,Colorado,Associate's Degree,2018,Percent,0.09
+State,Colorado,Bachelor's Degree,2018,Percent,0.27
+State,Colorado,Graduate degree,2018,Percent,0.15
+State,Colorado,Bachelor's Degree,2017,Percent,0.27
+State,Colorado,Associate's Degree,2017,Percent,0.09
+State,Colorado,High school diploma or GED,2017,Percent,0.41
+State,Colorado,Not a high school graduate,2017,Percent,0.08
+State,Colorado,Graduate degree,2016,Percent,0.14
+State,Colorado,Bachelor's Degree,2016,Percent,0.26
+State,Colorado,Associate's Degree,2016,Percent,0.09
+State,Colorado,High school diploma or GED,2016,Percent,0.42
+State,Colorado,Not a high school graduate,2016,Percent,0.08
+State,California,Graduate degree,2017,Percent,0.12
+State,California,Not a high school graduate,2019,Percent,0.15
+State,California,High school diploma or GED,2019,Percent,0.41
+State,California,Associate's Degree,2019,Percent,0.08
+State,California,Bachelor's Degree,2019,Percent,0.23
+State,California,Graduate degree,2019,Percent,0.13
+State,California,Not a high school graduate,2018,Percent,0.15
+State,California,High school diploma or GED,2018,Percent,0.42
+State,California,Associate's Degree,2018,Percent,0.08
+State,California,Bachelor's Degree,2018,Percent,0.22
+State,California,Graduate degree,2018,Percent,0.13
+State,California,Bachelor's Degree,2017,Percent,0.22
+State,California,Associate's Degree,2017,Percent,0.08
+State,California,High school diploma or GED,2017,Percent,0.42
+State,California,Not a high school graduate,2017,Percent,0.16
+State,California,Graduate degree,2016,Percent,0.12
+State,California,Bachelor's Degree,2016,Percent,0.21
+State,California,Associate's Degree,2016,Percent,0.08
+State,California,High school diploma or GED,2016,Percent,0.42
+State,California,Not a high school graduate,2016,Percent,0.17
+State,Arkansas,Graduate degree,2017,Percent,0.08
+State,Arkansas,Bachelor's Degree,2017,Percent,0.16
+State,Arkansas,Not a high school graduate,2019,Percent,0.11
+State,Arkansas,High school diploma or GED,2019,Percent,0.56
+State,Arkansas,Associate's Degree,2019,Percent,0.08
+State,Arkansas,Bachelor's Degree,2019,Percent,0.16
+State,Arkansas,Graduate degree,2019,Percent,0.08
+State,Arkansas,Not a high school graduate,2018,Percent,0.11
+State,Arkansas,High school diploma or GED,2018,Percent,0.56
+State,Arkansas,Associate's Degree,2018,Percent,0.09
+State,Arkansas,Bachelor's Degree,2018,Percent,0.16
+State,Arkansas,Graduate degree,2018,Percent,0.08
+State,Arkansas,Associate's Degree,2017,Percent,0.08
+State,Arkansas,High school diploma or GED,2017,Percent,0.56
+State,Arkansas,Not a high school graduate,2017,Percent,0.12
+State,Arkansas,Graduate degree,2016,Percent,0.08
+State,Arkansas,Bachelor's Degree,2016,Percent,0.15
+State,Arkansas,Associate's Degree,2016,Percent,0.07
+State,Arkansas,High school diploma or GED,2016,Percent,0.57
+State,Arkansas,Not a high school graduate,2016,Percent,0.12
+State,Arizona,Not a high school graduate,2019,Percent,0.13
+State,Arizona,High school diploma or GED,2019,Percent,0.49
+State,Arizona,Associate's Degree,2019,Percent,0.09
+State,Arizona,Bachelor's Degree,2019,Percent,0.19
+State,Arizona,Graduate degree,2019,Percent,0.11
+State,Arizona,Not a high school graduate,2018,Percent,0.13
+State,Arizona,High school diploma or GED,2018,Percent,0.48
+State,Arizona,Associate's Degree,2018,Percent,0.09
+State,Arizona,Bachelor's Degree,2018,Percent,0.19
+State,Arizona,Graduate degree,2018,Percent,0.1
+State,Arizona,Graduate degree,2017,Percent,0.1
+State,Arizona,Bachelor's Degree,2017,Percent,0.19
+State,Arizona,Associate's Degree,2017,Percent,0.09
+State,Arizona,High school diploma or GED,2017,Percent,0.48
+State,Arizona,Not a high school graduate,2017,Percent,0.13
+State,Arizona,Bachelor's Degree,2016,Percent,0.19
+State,Arizona,Graduate degree,2016,Percent,0.1
+State,Arizona,Associate's Degree,2016,Percent,0.09
+State,Arizona,High school diploma or GED,2016,Percent,0.49
+State,Arizona,Not a high school graduate,2016,Percent,0.13
+State,Alaska,Graduate degree,2017,Percent,0.1
+State,Alaska,Bachelor's Degree,2017,Percent,0.18
+State,Alaska,Associate's Degree,2017,Percent,0.09
+State,Alaska,Not a high school graduate,2019,Percent,0.06
+State,Alaska,High school diploma or GED,2019,Percent,0.54
+State,Alaska,Associate's Degree,2019,Percent,0.09
+State,Alaska,Bachelor's Degree,2019,Percent,0.19
+State,Alaska,Graduate degree,2019,Percent,0.11
+State,Alaska,Not a high school graduate,2018,Percent,0.06
+State,Alaska,High school diploma or GED,2018,Percent,0.56
+State,Alaska,Associate's Degree,2018,Percent,0.09
+State,Alaska,Bachelor's Degree,2018,Percent,0.19
+State,Alaska,Graduate degree,2018,Percent,0.11
+State,Alaska,High school diploma or GED,2017,Percent,0.55
+State,Alaska,Not a high school graduate,2017,Percent,0.07
+State,Alaska,Graduate degree,2016,Percent,0.1
+State,Alaska,Bachelor's Degree,2016,Percent,0.19
+State,Alaska,Associate's Degree,2016,Percent,0.09
+State,Alaska,High school diploma or GED,2016,Percent,0.56
+State,Alaska,Not a high school graduate,2016,Percent,0.06
+State,Alabama,Graduate degree,2017,Percent,0.09
+State,Alabama,Not a high school graduate,2019,Percent,0.12
+State,Alabama,High school diploma or GED,2019,Percent,0.51
+State,Alabama,Associate's Degree,2019,Percent,0.1
+State,Alabama,Bachelor's Degree,2019,Percent,0.17
+State,Alabama,Graduate degree,2019,Percent,0.1
+State,Alabama,Not a high school graduate,2018,Percent,0.12
+State,Alabama,High school diploma or GED,2018,Percent,0.52
+State,Alabama,Associate's Degree,2018,Percent,0.1
+State,Alabama,Bachelor's Degree,2018,Percent,0.17
+State,Alabama,Graduate degree,2018,Percent,0.09
+State,Alabama,Bachelor's Degree,2017,Percent,0.17
+State,Alabama,Associate's Degree,2017,Percent,0.09
+State,Alabama,High school diploma or GED,2017,Percent,0.52
+State,Alabama,Not a high school graduate,2017,Percent,0.12
+State,Alabama,Graduate degree,2016,Percent,0.09
+State,Alabama,Bachelor's Degree,2016,Percent,0.16
+State,Alabama,Associate's Degree,2016,Percent,0.09
+State,Alabama,High school diploma or GED,2016,Percent,0.52
+State,Alabama,Not a high school graduate,2016,Percent,0.13

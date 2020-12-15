@@ -1,0 +1,201 @@
+LocationType,Location,TimeFrame,DataFormat,Data
+State,Wyoming,2018,Percent,0.11
+State,Wisconsin,2018,Percent,0.11
+State,Washington,2018,Percent,0.1
+State,West Virginia,2018,Percent,0.18
+State,Virginia,2018,Percent,0.11
+State,Vermont,2018,Percent,0.11
+State,Utah,2018,Percent,0.09
+State,Texas,2018,Percent,0.15
+State,Tennessee,2018,Percent,0.15
+State,South Dakota,2018,Percent,0.13
+State,Rhode Island,2018,Percent,0.13
+State,South Carolina,2018,Percent,0.15
+State,Pennsylvania,2018,Percent,0.12
+State,Oregon,2018,Percent,0.13
+State,Oklahoma,2018,Percent,0.16
+State,Ohio,2018,Percent,0.14
+State,North Dakota,2018,Percent,0.11
+State,North Carolina,2018,Percent,0.14
+State,New Mexico,2018,Percent,0.19
+State,New York,2018,Percent,0.14
+State,New Jersey,2018,Percent,0.1
+State,New Hampshire,2018,Percent,0.08
+State,Nevada,2018,Percent,0.13
+State,Nebraska,2018,Percent,0.11
+State,Montana,2018,Percent,0.13
+State,Missouri,2018,Percent,0.13
+State,Minnesota,2018,Percent,0.1
+State,Mississippi,2018,Percent,0.2
+State,Michigan,2018,Percent,0.14
+State,Massachusetts,2018,Percent,0.1
+State,Maryland,2018,Percent,0.09
+State,Maine,2018,Percent,0.12
+State,Louisiana,2018,Percent,0.19
+State,Kentucky,2018,Percent,0.17
+State,Iowa,2018,Percent,0.11
+State,Kansas,2018,Percent,0.12
+State,Indiana,2018,Percent,0.13
+State,Illinois,2018,Percent,0.12
+State,Idaho,2018,Percent,0.12
+State,Hawaii,2018,Percent,0.09
+State,Georgia,2018,Percent,0.14
+State,Florida,2018,Percent,0.14
+State,Delaware,2018,Percent,0.12
+State,Connecticut,2018,Percent,0.1
+State,Colorado,2018,Percent,0.1
+State,California,2018,Percent,0.13
+State,Arkansas,2018,Percent,0.17
+State,Arizona,2018,Percent,0.14
+State,Alaska,2018,Percent,0.11
+State,Alabama,2018,Percent,0.17
+State,Alabama,2016,Percent,0.17
+State,Alaska,2016,Percent,0.1
+State,Arizona,2016,Percent,0.16
+State,Arkansas,2016,Percent,0.17
+State,California,2016,Percent,0.14
+State,Colorado,2016,Percent,0.11
+State,Connecticut,2016,Percent,0.1
+State,Delaware,2016,Percent,0.12
+State,Florida,2016,Percent,0.15
+State,Georgia,2016,Percent,0.16
+State,Hawaii,2016,Percent,0.09
+State,Idaho,2016,Percent,0.14
+State,Illinois,2016,Percent,0.13
+State,Indiana,2016,Percent,0.14
+State,Kansas,2016,Percent,0.12
+State,Iowa,2016,Percent,0.12
+State,Kentucky,2016,Percent,0.18
+State,Louisiana,2016,Percent,0.2
+State,Maine,2016,Percent,0.12
+State,Maryland,2016,Percent,0.1
+State,Massachusetts,2016,Percent,0.1
+State,Michigan,2016,Percent,0.15
+State,Mississippi,2016,Percent,0.21
+State,Minnesota,2016,Percent,0.1
+State,Missouri,2016,Percent,0.14
+State,Montana,2016,Percent,0.13
+State,Nebraska,2016,Percent,0.11
+State,Nevada,2016,Percent,0.14
+State,New Hampshire,2016,Percent,0.07
+State,New Jersey,2016,Percent,0.1
+State,New York,2016,Percent,0.15
+State,New Mexico,2016,Percent,0.2
+State,North Carolina,2016,Percent,0.15
+State,North Dakota,2016,Percent,0.11
+State,Ohio,2016,Percent,0.15
+State,Oklahoma,2016,Percent,0.16
+State,Oregon,2016,Percent,0.13
+State,Pennsylvania,2016,Percent,0.13
+State,South Carolina,2016,Percent,0.15
+State,Rhode Island,2016,Percent,0.13
+State,South Dakota,2016,Percent,0.13
+State,Tennessee,2016,Percent,0.16
+State,Texas,2016,Percent,0.16
+State,Utah,2016,Percent,0.1
+State,Vermont,2016,Percent,0.12
+State,Virginia,2016,Percent,0.11
+State,West Virginia,2016,Percent,0.18
+State,Washington,2016,Percent,0.11
+State,Wisconsin,2016,Percent,0.12
+State,Wyoming,2016,Percent,0.11
+State,Wyoming,2017,Percent,0.11
+State,Wisconsin,2017,Percent,0.11
+State,Washington,2017,Percent,0.11
+State,West Virginia,2017,Percent,0.19
+State,Vermont,2017,Percent,0.11
+State,Virginia,2017,Percent,0.11
+State,Utah,2017,Percent,0.1
+State,Texas,2017,Percent,0.15
+State,Tennessee,2017,Percent,0.15
+State,South Dakota,2017,Percent,0.13
+State,Rhode Island,2017,Percent,0.12
+State,South Carolina,2017,Percent,0.15
+State,Oregon,2017,Percent,0.13
+State,Pennsylvania,2017,Percent,0.12
+State,Oklahoma,2017,Percent,0.16
+State,Ohio,2017,Percent,0.14
+State,North Dakota,2017,Percent,0.1
+State,North Carolina,2017,Percent,0.15
+State,New Mexico,2017,Percent,0.2
+State,New York,2017,Percent,0.14
+State,New Hampshire,2017,Percent,0.08
+State,New Jersey,2017,Percent,0.1
+State,Nevada,2017,Percent,0.13
+State,Nebraska,2017,Percent,0.11
+State,Montana,2017,Percent,0.12
+State,Missouri,2017,Percent,0.13
+State,Minnesota,2017,Percent,0.09
+State,Mississippi,2017,Percent,0.2
+State,Massachusetts,2017,Percent,0.1
+State,Michigan,2017,Percent,0.14
+State,Maryland,2017,Percent,0.09
+State,Maine,2017,Percent,0.11
+State,Louisiana,2017,Percent,0.2
+State,Kentucky,2017,Percent,0.17
+State,Iowa,2017,Percent,0.11
+State,Kansas,2017,Percent,0.12
+State,Illinois,2017,Percent,0.13
+State,Indiana,2017,Percent,0.13
+State,Idaho,2017,Percent,0.13
+State,Hawaii,2017,Percent,0.1
+State,Georgia,2017,Percent,0.15
+State,Florida,2017,Percent,0.14
+State,Delaware,2017,Percent,0.14
+State,Colorado,2017,Percent,0.1
+State,Connecticut,2017,Percent,0.1
+State,California,2017,Percent,0.13
+State,Arkansas,2017,Percent,0.16
+State,Arizona,2017,Percent,0.15
+State,Alaska,2017,Percent,0.11
+State,Alabama,2017,Percent,0.17
+State,Alabama,2019,Percent,0.15
+State,Alaska,2019,Percent,0.1
+State,Arizona,2019,Percent,0.13
+State,Arkansas,2019,Percent,0.16
+State,California,2019,Percent,0.12
+State,Connecticut,2019,Percent,0.1
+State,Colorado,2019,Percent,0.09
+State,Delaware,2019,Percent,0.11
+State,Florida,2019,Percent,0.13
+State,Georgia,2019,Percent,0.13
+State,Hawaii,2019,Percent,0.09
+State,Idaho,2019,Percent,0.11
+State,Indiana,2019,Percent,0.12
+State,Illinois,2019,Percent,0.11
+State,Kansas,2019,Percent,0.11
+State,Iowa,2019,Percent,0.11
+State,Kentucky,2019,Percent,0.16
+State,Louisiana,2019,Percent,0.19
+State,Maine,2019,Percent,0.11
+State,Maryland,2019,Percent,0.09
+State,Michigan,2019,Percent,0.13
+State,Massachusetts,2019,Percent,0.09
+State,Mississippi,2019,Percent,0.2
+State,Minnesota,2019,Percent,0.09
+State,Missouri,2019,Percent,0.13
+State,Montana,2019,Percent,0.13
+State,Nebraska,2019,Percent,0.1
+State,Nevada,2019,Percent,0.12
+State,New Jersey,2019,Percent,0.09
+State,New Hampshire,2019,Percent,0.07
+State,New York,2019,Percent,0.13
+State,New Mexico,2019,Percent,0.18
+State,North Carolina,2019,Percent,0.14
+State,North Dakota,2019,Percent,0.11
+State,Ohio,2019,Percent,0.13
+State,Oklahoma,2019,Percent,0.15
+State,Pennsylvania,2019,Percent,0.12
+State,Oregon,2019,Percent,0.11
+State,South Carolina,2019,Percent,0.14
+State,Rhode Island,2019,Percent,0.11
+State,South Dakota,2019,Percent,0.12
+State,Tennessee,2019,Percent,0.14
+State,Texas,2019,Percent,0.14
+State,Utah,2019,Percent,0.09
+State,Virginia,2019,Percent,0.1
+State,Vermont,2019,Percent,0.1
+State,West Virginia,2019,Percent,0.16
+State,Washington,2019,Percent,0.1
+State,Wisconsin,2019,Percent,0.1
+State,Wyoming,2019,Percent,0.1
